@@ -4,8 +4,8 @@
   <playlist id="main_bin">
     <property name="xml_retain">1</property>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:12:33.480">
-    <property name="length">00:12:33.520</property>
+  <producer id="black" in="00:00:00.000" out="00:12:27.080">
+    <property name="length">00:12:27.120</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -14,12 +14,12 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:12:33.480"/>
+    <entry producer="black" in="00:00:00.000" out="00:12:27.080"/>
   </playlist>
   <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">guy_fawkes.jpg</property>
+    <property name="resource">sources/images/jpg/guy_fawkes.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -65,7 +65,7 @@
   <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">call_of_duty.jpg</property>
+    <property name="resource">sources/images/jpg/call_of_duty.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -110,7 +110,7 @@
   <producer id="producer7" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">mein_schatz.jpg</property>
+    <property name="resource">sources/images/jpg/mein_schatz.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -155,7 +155,7 @@
   <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">EZY.png</property>
+    <property name="resource">sources/images/png/EZY.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -201,7 +201,7 @@
   <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">nopegida.gif</property>
+    <property name="resource">sources/images/gif/nopegida.gif</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -247,7 +247,7 @@
   <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">nazidorf_jamel.jpg</property>
+    <property name="resource">sources/images/jpg/nazidorf_jamel.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -292,7 +292,7 @@
   <producer id="producer11" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">jesuslatschen.jpg</property>
+    <property name="resource">sources/images/jpg/jesuslatschen.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -338,7 +338,7 @@
   <producer id="producer12" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">calimero.png</property>
+    <property name="resource">sources/images/png/calimero.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -384,7 +384,7 @@
   <producer id="producer13" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">xenophobia.jpg</property>
+    <property name="resource">sources/images/jpg/xenophobia.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -430,7 +430,7 @@
   <producer id="producer14" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">berliner_mauer.jpg</property>
+    <property name="resource">sources/images/jpg/berliner_mauer.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -476,7 +476,7 @@
   <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">deutschland.jpg</property>
+    <property name="resource">sources/images/jpg/deutschland.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -522,7 +522,7 @@
   <producer id="producer15" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">antifa2.png</property>
+    <property name="resource">sources/images/png/antifa2.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -567,7 +567,7 @@
   <producer id="producer16" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">reminder.jpg</property>
+    <property name="resource">sources/images/jpg/reminder.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -605,7 +605,7 @@
   <producer id="producer17" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">axel_stoll.jpg</property>
+    <property name="resource">sources/images/jpg/axel_stoll.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -651,7 +651,7 @@
   <producer id="producer18" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">völkerschlachtdenkmal.jpg</property>
+    <property name="resource">sources/images/jpg/völkerschlachtdenkmal.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -695,7 +695,7 @@
   <producer id="producer19" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">mensa.jpg</property>
+    <property name="resource">sources/images/jpg/mensa.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -740,7 +740,7 @@
   <producer id="producer20" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">nazis töten.jpg</property>
+    <property name="resource">sources/images/jpg/nazis töten.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -777,7 +777,7 @@
   <producer id="producer21" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">helene_fischer_wm_2014.jpg</property>
+    <property name="resource">sources/images/jpg/helene_fischer_wm_2014.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -814,7 +814,7 @@
   <producer id="producer22" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">feuerzangenbowle.jpg</property>
+    <property name="resource">sources/images/jpg/feuerzangenbowle.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -852,7 +852,7 @@
   <producer id="producer23" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">socks_with_sandals.jpg</property>
+    <property name="resource">sources/images/jpg/socks_with_sandals.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -890,7 +890,7 @@
   <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">bowl_medina.jpg</property>
+    <property name="resource">sources/images/jpg/bowl_medina.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -928,7 +928,7 @@
   <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">kant_cunt.jpg</property>
+    <property name="resource">sources/images/jpg/kant_cunt.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -973,7 +973,7 @@
   <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">deutschland.jpg</property>
+    <property name="resource">sources/images/jpg/deutschland.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1018,7 +1018,7 @@
   <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">eg.jpg</property>
+    <property name="resource">sources/images/jpg/eg.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1064,7 +1064,7 @@
   <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">blausäurekapseln.jpg</property>
+    <property name="resource">sources/images/jpg/blausäurekapseln.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1101,7 +1101,7 @@
   <producer id="producer10" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">kriegsmarine.jpg</property>
+    <property name="resource">sources/images/jpg/kriegsmarine.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1147,7 +1147,7 @@
   <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">kapitulation.jpg</property>
+    <property name="resource">sources/images/jpg/kapitulation.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1193,7 +1193,7 @@
   <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">hitler_blondi.jpg</property>
+    <property name="resource">sources/images/jpg/hitler_blondi.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1239,7 +1239,7 @@
   <producer id="producer28" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">amerikanischer_bomber.jpg</property>
+    <property name="resource">sources/images/jpg/amerikanischer_bomber.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1285,7 +1285,7 @@
   <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">churchill.jpg</property>
+    <property name="resource">sources/images/jpg/churchill.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1331,7 +1331,7 @@
   <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">hitler_blondi.jpg</property>
+    <property name="resource">sources/images/jpg/hitler_blondi.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1377,7 +1377,7 @@
   <producer id="producer31" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">kapitulation.jpg</property>
+    <property name="resource">sources/images/jpg/kapitulation.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1423,7 +1423,7 @@
   <producer id="producer32" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">churchill.jpg</property>
+    <property name="resource">sources/images/jpg/churchill.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1469,7 +1469,7 @@
   <producer id="producer33" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">csd.jpg</property>
+    <property name="resource">sources/images/jpg/csd.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1507,7 +1507,7 @@
   <producer id="producer34" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">deutsche_bank.jpg</property>
+    <property name="resource">sources/images/jpg/deutsche_bank.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1622,7 +1622,7 @@
   <producer id="producer46" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">true_germans.jpg</property>
+    <property name="resource">sources/images/jpg/true_germans.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1668,7 +1668,7 @@
   <producer id="producer35" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">ddr.jpg</property>
+    <property name="resource">sources/images/jpg/ddr.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1714,7 +1714,7 @@
   <producer id="producer36" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">heer.jpg</property>
+    <property name="resource">sources/images/jpg/heer.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1760,7 +1760,7 @@
   <producer id="producer37" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">anti_hitler_koalition.jpg</property>
+    <property name="resource">sources/images/jpg/anti_hitler_koalition.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1805,7 +1805,7 @@
   <producer id="producer38" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">arthur_harris.jpg</property>
+    <property name="resource">sources/images/jpg/arthur_harris.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1864,7 +1864,7 @@
   <producer id="producer39" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">reichsprogramnacht.jpg</property>
+    <property name="resource">sources/images/jpg/reichsprogramnacht.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1909,7 +1909,7 @@
   <producer id="producer40" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">dornröschen.jpg</property>
+    <property name="resource">sources/images/jpg/dornröschen.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1953,7 +1953,7 @@
   <producer id="producer41" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">nuts.jpg</property>
+    <property name="resource">sources/images/jpg/nuts.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -1998,7 +1998,7 @@
   <producer id="producer42" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">reichskriegsflagge.jpg</property>
+    <property name="resource">sources/images/jpg/reichskriegsflagge.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2044,7 +2044,7 @@
   <producer id="producer43" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">pitchforks.jpg</property>
+    <property name="resource">sources/images/jpg/pitchforks.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2090,7 +2090,7 @@
   <producer id="producer44" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">arier.jpg</property>
+    <property name="resource">sources/images/jpg/arier.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2135,7 +2135,7 @@
   <producer id="producer45" in="00:00:00.000" out="00:00:18.080">
     <property name="length">00:00:18.120</property>
     <property name="eof">pause</property>
-    <property name="resource">fahrraddemo_cut.mp4</property>
+    <property name="resource">sources/videos/mp4/fahrraddemo_cut.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -2187,7 +2187,7 @@
   <producer id="producer47" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">hitler_statlin_mao.jpg</property>
+    <property name="resource">sources/images/jpg/hitler_statlin_mao.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2233,7 +2233,7 @@
   <producer id="producer48" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">ddr.jpg</property>
+    <property name="resource">sources/images/jpg/ddr.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2278,7 +2278,7 @@
   <producer id="producer49" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">helene_fischer_wm_2014.jpg</property>
+    <property name="resource">sources/images/jpg/helene_fischer_wm_2014.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2324,7 +2324,7 @@
   <producer id="producer50" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">auschwitz.jpg</property>
+    <property name="resource">sources/images/jpg/auschwitz.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2370,7 +2370,7 @@
   <producer id="producer51" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">einstein.jpg</property>
+    <property name="resource">sources/images/jpg/einstein.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2415,7 +2415,7 @@
   <producer id="producer52" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">barbaren.jpg</property>
+    <property name="resource">sources/images/jpg/barbaren.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2460,7 +2460,7 @@
   <producer id="producer53" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">nichtwähler.jpg</property>
+    <property name="resource">sources/images/jpg/nichtwähler.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2505,7 +2505,7 @@
   <producer id="producer54" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">punkt_12.jpg</property>
+    <property name="resource">sources/images/jpg/punkt_12.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2542,7 +2542,7 @@
   <producer id="producer55" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">deutschland.jpg</property>
+    <property name="resource">sources/images/jpg/deutschland.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2588,7 +2588,7 @@
   <producer id="producer56" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">antifa2.png</property>
+    <property name="resource">sources/images/png/antifa2.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2626,7 +2626,7 @@
   <producer id="producer57" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">würde_unantastbar.jpg</property>
+    <property name="resource">sources/images/jpg/würde_unantastbar.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2663,7 +2663,7 @@
   <producer id="producer58" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">vikings.jpg</property>
+    <property name="resource">sources/images/jpg/vikings.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2701,7 +2701,7 @@
   <producer id="producer59" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">handtuch_kampf.jpg</property>
+    <property name="resource">sources/images/jpg/handtuch_kampf.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2739,7 +2739,7 @@
   <producer id="producer60" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">kategorischer_imperativ.jpg</property>
+    <property name="resource">sources/images/jpg/kategorischer_imperativ.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2784,7 +2784,7 @@
   <producer id="producer61" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">ddr.jpg</property>
+    <property name="resource">sources/images/jpg/ddr.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2829,7 +2829,7 @@
   <producer id="producer62" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">eu.jpg</property>
+    <property name="resource">sources/images/jpg/eu.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2874,7 +2874,7 @@
   <producer id="producer63" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">hitlers_leiche.jpg</property>
+    <property name="resource">sources/images/jpg/hitlers_leiche.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2904,7 +2904,7 @@
   <producer id="producer64" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">luftwaffe.jpg</property>
+    <property name="resource">sources/images/jpg/luftwaffe.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2950,7 +2950,7 @@
   <producer id="producer65" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">botonwerk_bad_lausick.jpg</property>
+    <property name="resource">sources/images/jpg/botonwerk_bad_lausick.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -2996,7 +2996,7 @@
   <producer id="producer66" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">flasche_rose.jpg</property>
+    <property name="resource">sources/images/jpg/flasche_rose.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -3042,7 +3042,7 @@
   <producer id="producer67" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">kriegsfuehrende_staaten_im_zweiten_weltkrieg.jpg</property>
+    <property name="resource">sources/images/jpg/kriegsfuehrende_staaten_im_zweiten_weltkrieg.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -3087,7 +3087,7 @@
   <producer id="producer68" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">britischer_bomber.jpg</property>
+    <property name="resource">sources/images/jpg/britischer_bomber.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -3133,7 +3133,7 @@
   <producer id="producer70" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">flasche_rose.jpg</property>
+    <property name="resource">sources/images/jpg/flasche_rose.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -3179,7 +3179,7 @@
   <producer id="producer71" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">kapitulation.jpg</property>
+    <property name="resource">sources/images/jpg/kapitulation.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -3225,7 +3225,7 @@
   <producer id="producer72" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">kleidung_ist_gegen_gott.jpg</property>
+    <property name="resource">sources/images/jpg/kleidung_ist_gegen_gott.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -3262,7 +3262,7 @@
   <producer id="producer73" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">häuserkampf.jpg</property>
+    <property name="resource">sources/images/jpg/häuserkampf.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -3302,30 +3302,6 @@
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:01.000</property>
-    </filter>
-  </producer>
-  <producer id="producer74" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">to_be_continued.png</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2021-03-05T18:01:34</property>
-    <property name="shotcut:caption">to_be_continued.png</property>
-    <property name="shotcut:hash">44099ca16308aef2e5cd6d8acca43270</property>
-    <property name="ignore_points">0</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <filter id="filter204" out="00:00:04.520">
-      <property name="start">1</property>
-      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
-      <property name="mlt_service">brightness</property>
-      <property name="shotcut:filter">fadeInBrightness</property>
-      <property name="alpha">1</property>
-      <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
   <playlist id="playlist2">
@@ -3389,13 +3365,11 @@
     <entry producer="producer72" in="00:00:00.000" out="00:00:06.280"/>
     <blank length="00:00:01.080"/>
     <entry producer="producer73" in="00:00:00.000" out="00:00:05.360"/>
-    <blank length="00:00:01.840"/>
-    <entry producer="producer74" in="00:00:00.000" out="00:00:04.520"/>
   </playlist>
   <producer id="producer76" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3439,7 +3413,7 @@
   <producer id="producer77" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3476,7 +3450,7 @@
   <producer id="producer78" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3514,7 +3488,7 @@
   <producer id="producer79" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3550,7 +3524,7 @@
   <producer id="producer80" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3587,7 +3561,7 @@
   <producer id="producer81" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3610,7 +3584,7 @@
   <producer id="producer82" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3647,7 +3621,7 @@
   <producer id="producer83" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3664,7 +3638,7 @@
   <producer id="producer84" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3701,7 +3675,7 @@
   <producer id="producer85" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3718,7 +3692,7 @@
   <producer id="producer86" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3755,7 +3729,7 @@
   <producer id="producer87" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3772,7 +3746,7 @@
   <producer id="producer88" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3809,7 +3783,7 @@
   <producer id="producer89" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3846,7 +3820,7 @@
   <producer id="producer90" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3890,7 +3864,7 @@
   <producer id="producer91" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3913,7 +3887,7 @@
   <producer id="producer92" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3957,7 +3931,7 @@
   <producer id="producer93" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3980,7 +3954,7 @@
   <producer id="producer94" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4024,7 +3998,7 @@
   <producer id="producer95" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4047,7 +4021,7 @@
   <producer id="producer96" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4084,7 +4058,7 @@
   <producer id="producer97" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4101,7 +4075,7 @@
   <producer id="producer98" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4138,7 +4112,7 @@
   <producer id="producer99" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4155,7 +4129,7 @@
   <producer id="producer100" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4192,7 +4166,7 @@
   <producer id="producer101" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4209,7 +4183,7 @@
   <producer id="producer102" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4246,7 +4220,7 @@
   <producer id="producer103" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4269,7 +4243,7 @@
   <producer id="producer104" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4313,7 +4287,7 @@
   <producer id="producer105" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4336,7 +4310,7 @@
   <producer id="producer106" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4359,7 +4333,7 @@
   <producer id="producer107" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4390,7 +4364,7 @@
   <producer id="producer108" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4427,7 +4401,7 @@
   <producer id="producer109" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4464,7 +4438,7 @@
   <producer id="producer110" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4501,7 +4475,7 @@
   <producer id="producer69" in="00:00:00.000" out="00:00:10.000">
     <property name="length">00:00:10.040</property>
     <property name="eof">pause</property>
-    <property name="resource">feuersturm1.mp4</property>
+    <property name="resource">sources/videos/mp4/feuersturm1.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4545,7 +4519,7 @@
   <producer id="producer111" in="00:00:00.000" out="00:04:58.680">
     <property name="length">00:04:58.720</property>
     <property name="eof">pause</property>
-    <property name="resource">K.I.Z. - Hurra die Welt geht unter ft. Henning May (Official Video) (1080p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/K.I.Z. - Hurra die Welt geht unter ft. Henning May (Official Video) (1080p_25fps_AV1-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4641,7 +4615,7 @@
   <producer id="producer112" in="00:00:00.000" out="00:04:38.680">
     <property name="length">00:04:38.720</property>
     <property name="eof">pause</property>
-    <property name="resource">BE DEUTSCH! [Achtung! Germans on the rise!] _ NEO MAGAZIN ROYALE mit Jan Böhmermann - ZDFneo (1080p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/BE DEUTSCH! [Achtung! Germans on the rise!] _ NEO MAGAZIN ROYALE mit Jan Böhmermann - ZDFneo (1080p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4685,7 +4659,7 @@
   <producer id="producer113" in="00:00:00.000" out="00:04:38.680">
     <property name="length">00:04:38.720</property>
     <property name="eof">pause</property>
-    <property name="resource">BE DEUTSCH! [Achtung! Germans on the rise!] _ NEO MAGAZIN ROYALE mit Jan Böhmermann - ZDFneo (1080p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/BE DEUTSCH! [Achtung! Germans on the rise!] _ NEO MAGAZIN ROYALE mit Jan Böhmermann - ZDFneo (1080p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4723,7 +4697,7 @@
   <producer id="producer114" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4762,7 +4736,7 @@
   <producer id="producer75" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4779,7 +4753,7 @@
   <producer id="producer115" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4810,7 +4784,7 @@
   <producer id="producer116" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4827,7 +4801,7 @@
   <producer id="producer117" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4858,7 +4832,7 @@
   <producer id="producer118" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4875,7 +4849,7 @@
   <producer id="producer119" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4911,6 +4885,22 @@
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
+  <producer id="producer120" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/1500x500.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2017-09-16T02:47:12</property>
+    <property name="shotcut:caption">1500x500.jpg</property>
+    <property name="shotcut:hash">88f2bb3607fdb5802df18e58fa0002c6</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
   <playlist id="playlist4">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V5</property>
@@ -4924,11 +4914,13 @@
     <entry producer="producer117" in="00:01:50.040" out="00:01:55.040"/>
     <entry producer="producer118" in="00:01:55.080" out="00:02:12.920"/>
     <entry producer="producer119" in="00:02:12.960" out="00:02:40.480"/>
+    <blank length="00:00:00.600"/>
+    <entry producer="producer120" in="00:00:00.000" out="00:00:03.960"/>
   </playlist>
-  <producer id="producer120" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer121" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4970,10 +4962,10 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer121" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer122" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5015,10 +5007,10 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer122" in="00:00:00.000" out="00:00:10.000">
+  <producer id="producer123" in="00:00:00.000" out="00:00:10.000">
     <property name="length">00:00:10.040</property>
     <property name="eof">pause</property>
-    <property name="resource">feuersturm1.mp4</property>
+    <property name="resource">sources/videos/mp4/feuersturm1.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5039,10 +5031,10 @@
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer123" in="00:00:00.000" out="00:00:22.240">
+  <producer id="producer124" in="00:00:00.000" out="00:00:22.240">
     <property name="length">00:00:22.280</property>
     <property name="eof">pause</property>
-    <property name="resource">Nuclear Explosion Video &amp; Sound (720p_30fps_H264-192kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Nuclear Explosion Video &amp; Sound (720p_30fps_H264-192kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5061,18 +5053,18 @@
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
     <blank length="00:04:04.920"/>
-    <entry producer="producer120" in="00:00:28.160" out="00:00:29.080"/>
+    <entry producer="producer121" in="00:00:28.160" out="00:00:29.080"/>
     <blank length="00:02:22.800"/>
-    <entry producer="producer121" in="00:00:28.240" out="00:00:29.560"/>
+    <entry producer="producer122" in="00:00:28.240" out="00:00:29.560"/>
     <blank length="00:04:19.720"/>
-    <entry producer="producer122" in="00:00:00.000" out="00:00:03.520"/>
+    <entry producer="producer123" in="00:00:00.000" out="00:00:03.520"/>
     <blank length="00:00:58.200"/>
-    <entry producer="producer123" in="00:00:00.000" out="00:00:11.960"/>
+    <entry producer="producer124" in="00:00:00.000" out="00:00:11.960"/>
   </playlist>
-  <producer id="producer124" in="00:00:00.000" out="00:05:48.040">
+  <producer id="producer125" in="00:00:00.000" out="00:05:48.040">
     <property name="length">00:05:48.080</property>
     <property name="eof">pause</property>
-    <property name="resource">BigGgns - The Final Frontier (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/BigGgns - The Final Frontier (1080p_30fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5100,17 +5092,17 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer125" in="00:00:00.000" out="00:03:36.360">
+  <producer id="producer126" in="00:00:00.000" out="00:03:36.360">
     <property name="length">00:03:36.400</property>
     <property name="eof">pause</property>
-    <property name="resource">1.59:BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">1.59:sources/videos/mp4/BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
     <property name="aspect_ratio">1</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">1</property>
     <property name="warp_speed">1.59</property>
-    <property name="warp_resource">BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="warp_resource">sources/videos/mp4/BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
     <property name="mlt_service">timewarp</property>
     <property name="shotcut:producer">avformat</property>
     <property name="video_delay">0</property>
@@ -5153,10 +5145,10 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer126" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer127" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5197,10 +5189,10 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer127" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer128" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5241,10 +5233,10 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer128" in="00:00:00.000" out="00:05:48.040">
+  <producer id="producer129" in="00:00:00.000" out="00:05:48.040">
     <property name="length">00:05:48.080</property>
     <property name="eof">pause</property>
-    <property name="resource">BigGgns - The Final Frontier (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/BigGgns - The Final Frontier (1080p_30fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5272,22 +5264,22 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer129" in="00:00:00.000" out="00:04:05.720">
+  <producer id="producer130" in="00:00:00.000" out="00:04:05.720">
     <property name="length">00:04:05.760</property>
     <property name="eof">pause</property>
-    <property name="resource">1.4:BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">1.4:sources/videos/mp4/BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
     <property name="aspect_ratio">1</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">1</property>
     <property name="warp_speed">1.4</property>
-    <property name="warp_resource">BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="warp_resource">sources/videos/mp4/BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
     <property name="mlt_service">timewarp</property>
     <property name="shotcut:producer">avformat</property>
     <property name="video_delay">0</property>
     <property name="shotcut:hash">bbf3d1d5b319c35c50173dbac19e9614</property>
-    <property name="shotcut:caption">BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4 (1.4x)</property>
+    <property name="shotcut:caption">BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter296" in="00:01:14.120" out="00:01:17.600">
@@ -5319,10 +5311,10 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer130" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer131" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5363,10 +5355,10 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer131" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer132" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5407,10 +5399,10 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer132" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer133" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">rudolf_heß_maertyrer_fuer_den_frieden.jpg</property>
+    <property name="resource">sources/images/jpg/rudolf_heß_maertyrer_fuer_den_frieden.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -5451,10 +5443,10 @@
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer133" in="00:00:00.000" out="00:03:46.640">
+  <producer id="producer134" in="00:00:00.000" out="00:03:46.640">
     <property name="length">00:03:46.680</property>
     <property name="eof">pause</property>
-    <property name="resource">Slime - Deutschland muss sterben (288p_25fps_H264-96kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/Slime - Deutschland muss sterben (288p_25fps_H264-96kbit_AAC).mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5501,30 +5493,30 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V6</property>
     <blank length="00:03:53.520"/>
-    <entry producer="producer124" in="00:00:22.800" out="00:00:26.160"/>
+    <entry producer="producer125" in="00:00:22.800" out="00:00:26.160"/>
     <blank length="00:00:01.040"/>
-    <entry producer="producer125" in="00:01:05.240" out="00:01:08.080"/>
+    <entry producer="producer126" in="00:01:05.240" out="00:01:08.080"/>
     <blank length="00:00:01.160"/>
-    <entry producer="producer126" in="00:00:25.240" out="00:00:28.120"/>
+    <entry producer="producer127" in="00:00:25.240" out="00:00:28.120"/>
     <blank length="00:00:00.960"/>
-    <entry producer="producer127" in="00:00:29.120" out="00:00:32.800"/>
+    <entry producer="producer128" in="00:00:29.120" out="00:00:32.800"/>
     <blank length="00:02:07.920"/>
-    <entry producer="producer128" in="00:00:22.800" out="00:00:26.160"/>
+    <entry producer="producer129" in="00:00:22.800" out="00:00:26.160"/>
     <blank length="00:00:00.480"/>
-    <entry producer="producer129" in="00:01:14.120" out="00:01:17.600"/>
+    <entry producer="producer130" in="00:01:14.120" out="00:01:17.600"/>
     <blank length="00:00:00.760"/>
-    <entry producer="producer130" in="00:00:25.240" out="00:00:28.200"/>
+    <entry producer="producer131" in="00:00:25.240" out="00:00:28.200"/>
     <blank length="00:00:01.360"/>
-    <entry producer="producer131" in="00:00:29.600" out="00:00:32.800"/>
+    <entry producer="producer132" in="00:00:29.600" out="00:00:32.800"/>
     <blank length="00:04:22.080"/>
-    <entry producer="producer132" in="00:00:00.000" out="00:00:04.400"/>
+    <entry producer="producer133" in="00:00:00.000" out="00:00:04.400"/>
     <blank length="00:00:47.120"/>
-    <entry producer="producer133" in="00:00:35.080" out="00:00:44.080"/>
+    <entry producer="producer134" in="00:00:35.080" out="00:00:44.080"/>
   </playlist>
-  <producer id="producer134" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer135" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">willhelm_keitel.jpg</property>
+    <property name="resource">sources/images/jpg/willhelm_keitel.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -5570,12 +5562,12 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V7</property>
     <blank length="00:10:55.360"/>
-    <entry producer="producer134" in="00:00:00.000" out="00:00:04.400"/>
+    <entry producer="producer135" in="00:00:00.000" out="00:00:04.400"/>
   </playlist>
-  <producer id="producer135" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer136" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">major_wilhelm.jpg</property>
+    <property name="resource">sources/images/jpg/major_wilhelm.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -5621,12 +5613,12 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V8</property>
     <blank length="00:10:55.360"/>
-    <entry producer="producer135" in="00:00:00.000" out="00:00:04.400"/>
+    <entry producer="producer136" in="00:00:00.000" out="00:00:04.400"/>
   </playlist>
-  <producer id="producer136" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer137" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">hans_juergen_strump.jpg</property>
+    <property name="resource">sources/images/jpg/hans_juergen_strump.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
@@ -5672,9 +5664,9 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V9</property>
     <blank length="00:10:55.360"/>
-    <entry producer="producer136" in="00:00:00.000" out="00:00:04.400"/>
+    <entry producer="producer137" in="00:00:00.000" out="00:00:04.400"/>
   </playlist>
-  <tractor id="tractor2" title="Shotcut version 21.02.27" global_feed="1" in="00:00:00.000" out="00:12:33.480">
+  <tractor id="tractor2" title="Shotcut version 21.02.27" global_feed="1" in="00:00:00.000" out="00:12:27.080">
     <property name="shotcut">1</property>
     <property name="shotcut:scaleFactor">5.85831</property>
     <property name="shotcut:projectAudioChannels">2</property>
