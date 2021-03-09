@@ -4,7 +4,7 @@
 This ARG is based on Collaborative Video Editing with the help of Shotcut and Git.
 
 # Part 1: The Devine Germany
-## Current Version
+## Current Version (v0.9.0)
 [![Puzzling the universe - Part 1: The Devine Germany](https://img.youtube.com/vi/B0ZXjhY3sWU/0.jpg)](https://www.youtube.com/watch?v=B0ZXjhY3sWU)
 
 # Premises
