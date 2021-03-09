@@ -6,10 +6,10 @@
 [![Puzzling the universe - Part 1: The Devine Germany](https://img.youtube.com/vi/B0ZXjhY3sWU/0.jpg)](https://www.youtube.com/watch?v=B0ZXjhY3sWU)
 
 # Premises
-1. Everything is connected
-2. Everything is encrypted
-3. Some key things a reversed
-4. We are living in a computer simulation
+1. We are living in a computer simulation
+2. Everything is connected
+3. Everything is encrypted
+4. Some key things a reversed
 5. Entities from an upper reality are sending us tiny pieces of a huge puzzle through all kinds of media
 6. If we solve the puzzle, we are getting granted full control over the simulation
 
