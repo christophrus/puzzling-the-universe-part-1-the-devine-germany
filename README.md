@@ -22,7 +22,7 @@ This ARG is based on Collaborative Video Editing with the help of Shotcut and Gi
 ## 1. Learn and use Shotcut
 Shotcut is a free and open-source cross-platform video editing application for FreeBSD, Linux, macOS and Windows.
 ![Image of an active Shotcut session](https://i.imgur.com/RqG1NZU.jpg)
-[Downloadlink for shotcut](https://shotcut.org/download/)
+[Downloadlink for Shotcut](https://shotcut.org/download/)
 
 [Link to the official Shotcut tutorial channel](https://www.youtube.com/watch?v=JtsB2iZRb9c&list=PLy7k-GJ461utAlmD1vyiKPAjU92Nuewz-)
 
