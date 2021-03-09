@@ -1,5 +1,5 @@
 # Puzzling The Universe - The Ultimate Alternate Reality Game
-![](https://i.imgur.com/w0FfEpq.jpg)
+![Image of an wikipedia article about Alternate Reality Game](https://i.imgur.com/w0FfEpq.jpg)
 
 This ARG is based on Collaborative Video Editing with the help of Shotcut and Git.
 
@@ -7,7 +7,7 @@ This ARG is based on Collaborative Video Editing with the help of Shotcut and Gi
 ## Current Version (v0.9.1)
 [![Puzzling the universe - Part 1: The Devine Germany](https://img.youtube.com/vi/eR8gzlWVgxY/0.jpg)](https://www.youtube.com/watch?v=eR8gzlWVgxY)
 
-[Youtube-Video](https://www.youtube.com/watch?v=eR8gzlWVgxY)
+[Link to Youtube-Video Puzzling the universe - Part 1: The Devine Germany](https://www.youtube.com/watch?v=eR8gzlWVgxY)
 
 
 # Premises
@@ -21,20 +21,20 @@ This ARG is based on Collaborative Video Editing with the help of Shotcut and Gi
 # How you can participate
 ## 1. Learn and use Shotcut
 Shotcut is a free and open-source cross-platform video editing application for FreeBSD, Linux, macOS and Windows.
-![](https://i.imgur.com/RqG1NZU.jpg)
+![Image of an active Shotcut session](https://i.imgur.com/RqG1NZU.jpg)
 [Download](https://shotcut.org/download/)
 
 [Tutorial](https://www.youtube.com/watch?v=JtsB2iZRb9c&list=PLy7k-GJ461utAlmD1vyiKPAjU92Nuewz-)
 
 # 2. Learn and use git
 Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
-![](https://i.imgur.com/28DqFKS.jpg)
+![Image of the git commandline help](https://i.imgur.com/28DqFKS.jpg)
 
-[Download Windows](https://git-scm.com/download/win)
-[Download Debian](https://packages.debian.org/de/git)
-[Download Ubuntu](https://packages.ubuntu.com/search?keywords=git)
+[Download git for Windows](https://git-scm.com/download/win)
+[Download git for Debian](https://packages.debian.org/de/git)
+[Download git for Ubuntu](https://packages.ubuntu.com/search?keywords=git)
 
-[Crash course for beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+[Crash course of git for beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 
 # 3. Put the puzzle pieces together
 Let's go
