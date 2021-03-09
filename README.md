@@ -36,7 +36,7 @@ Git is software for tracking changes in any set of files, usually used for coord
 
 [Download Git for Ubuntu](https://packages.ubuntu.com/search?keywords=git)
 
-[Git Crash course for beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+[Git crash course for beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
 
 # 3. Put the puzzle pieces together
 Let's go
