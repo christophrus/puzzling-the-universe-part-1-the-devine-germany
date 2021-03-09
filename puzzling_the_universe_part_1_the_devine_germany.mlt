@@ -155,14 +155,14 @@
   <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/images/png/EZY.png</property>
+    <property name="resource">sources/images/png/ezy.png</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
     <property name="seekable">1</property>
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2021-03-08T02:17:01</property>
-    <property name="shotcut:caption">EZY.png</property>
+    <property name="shotcut:caption">ezy.png</property>
     <property name="shotcut:hash">bd90cf64e697733015375c951f91207c</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
@@ -651,13 +651,13 @@
   <producer id="producer18" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/images/jpg/völkerschlachtdenkmal.jpg</property>
+    <property name="resource">sources/images/jpg/voelkerschlachtdenkmal.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
     <property name="seekable">1</property>
     <property name="mlt_service">qimage</property>
-    <property name="shotcut:caption">völkerschlachtdenkmal.jpg</property>
+    <property name="shotcut:caption">voelkerschlachtdenkmal.jpg</property>
     <property name="shotcut:hash">dd4b9d8eef31528261ed22f6f0f8834b</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
@@ -740,13 +740,13 @@
   <producer id="producer20" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/images/jpg/nazis töten.jpg</property>
+    <property name="resource">sources/images/jpg/nazis_toeten.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
     <property name="seekable">1</property>
     <property name="mlt_service">qimage</property>
-    <property name="shotcut:caption">nazis töten.jpg</property>
+    <property name="shotcut:caption">nazis_toeten.jpg</property>
     <property name="shotcut:hash">9889a2a7005334d0b218d3e234ec3600</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
@@ -1064,13 +1064,13 @@
   <producer id="producer8" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/images/jpg/blausäurekapseln.jpg</property>
+    <property name="resource">sources/images/jpg/blausaeurekapseln.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
     <property name="seekable">1</property>
     <property name="mlt_service">qimage</property>
-    <property name="shotcut:caption">blausäurekapseln.jpg</property>
+    <property name="shotcut:caption">blausaeurekapseln.jpg</property>
     <property name="shotcut:hash">7c360a4b106a2d77360d27f93e9f7f44</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
@@ -1909,13 +1909,13 @@
   <producer id="producer40" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/images/jpg/dornröschen.jpg</property>
+    <property name="resource">sources/images/jpg/dornroeschen.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
     <property name="seekable">1</property>
     <property name="mlt_service">qimage</property>
-    <property name="shotcut:caption">dornröschen.jpg</property>
+    <property name="shotcut:caption">dornroeschen.jpg</property>
     <property name="shotcut:hash">71e25f1aea4ed9720cca4c227ea3fa63</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
@@ -2460,13 +2460,13 @@
   <producer id="producer53" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/images/jpg/nichtwähler.jpg</property>
+    <property name="resource">sources/images/jpg/nichtwaehler.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
     <property name="seekable">1</property>
     <property name="mlt_service">qimage</property>
-    <property name="shotcut:caption">nichtwähler.jpg</property>
+    <property name="shotcut:caption">nichtwaehler.jpg</property>
     <property name="shotcut:hash">f96edbde10d161917a31ee263ea18b7c</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
@@ -2626,13 +2626,13 @@
   <producer id="producer57" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/images/jpg/würde_unantastbar.jpg</property>
+    <property name="resource">sources/images/jpg/wuerde_unantastbar.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
     <property name="seekable">1</property>
     <property name="mlt_service">qimage</property>
-    <property name="shotcut:caption">würde_unantastbar.jpg</property>
+    <property name="shotcut:caption">wuerde_unantastbar.jpg</property>
     <property name="shotcut:hash">e80ff0f25e3db0ab3a332ba3f86be9ec</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
@@ -3262,13 +3262,13 @@
   <producer id="producer73" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/images/jpg/häuserkampf.jpg</property>
+    <property name="resource">sources/images/jpg/haeuserkampf.jpg</property>
     <property name="ttl">1</property>
     <property name="aspect_ratio">1</property>
     <property name="progressive">1</property>
     <property name="seekable">1</property>
     <property name="mlt_service">qimage</property>
-    <property name="shotcut:caption">häuserkampf.jpg</property>
+    <property name="shotcut:caption">haeuserkampf.jpg</property>
     <property name="shotcut:hash">b9d11a405be152adc3be56b2e5b8fa20</property>
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
@@ -3369,7 +3369,7 @@
   <producer id="producer76" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3379,7 +3379,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter205" out="00:01:12.480">
@@ -3413,7 +3413,7 @@
   <producer id="producer77" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3423,7 +3423,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter208" out="00:00:28.960">
@@ -3450,7 +3450,7 @@
   <producer id="producer78" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3460,7 +3460,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter210" in="00:00:29.000" out="00:00:39.880">
@@ -3488,7 +3488,7 @@
   <producer id="producer79" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3498,7 +3498,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter212" in="00:00:39.920" out="00:01:12.400">
@@ -3524,7 +3524,7 @@
   <producer id="producer80" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3534,7 +3534,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter214" in="00:01:12.440" out="00:02:08.600">
@@ -3561,7 +3561,7 @@
   <producer id="producer81" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3571,7 +3571,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter216" in="00:02:08.640" out="00:02:40.960">
@@ -3584,7 +3584,7 @@
   <producer id="producer82" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3594,7 +3594,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter217" in="00:02:41.000" out="00:02:44.360">
@@ -3621,7 +3621,7 @@
   <producer id="producer83" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3631,14 +3631,14 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer84" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3648,7 +3648,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter219" in="00:02:45.440" out="00:02:48.280">
@@ -3675,7 +3675,7 @@
   <producer id="producer85" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3685,14 +3685,14 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer86" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3702,7 +3702,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter221" in="00:02:49.480" out="00:02:52.360">
@@ -3729,7 +3729,7 @@
   <producer id="producer87" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3739,14 +3739,14 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer88" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3756,7 +3756,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter223" in="00:02:53.360" out="00:02:55.600">
@@ -3783,7 +3783,7 @@
   <producer id="producer89" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3793,7 +3793,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter225" in="00:02:55.200" out="00:02:56.840">
@@ -3820,7 +3820,7 @@
   <producer id="producer90" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3830,7 +3830,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter227" in="00:02:56.880" out="00:03:13.240">
@@ -3864,7 +3864,7 @@
   <producer id="producer91" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3874,7 +3874,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter231" in="00:03:13.280" out="00:03:55.960">
@@ -3887,7 +3887,7 @@
   <producer id="producer92" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3897,7 +3897,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter232" in="00:03:56.000" out="00:04:33.560">
@@ -3931,7 +3931,7 @@
   <producer id="producer93" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3941,7 +3941,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter236" in="00:04:33.600" out="00:04:47.680">
@@ -3954,7 +3954,7 @@
   <producer id="producer94" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -3964,7 +3964,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter237" in="00:04:47.720" out="00:04:49.840">
@@ -3998,7 +3998,7 @@
   <producer id="producer95" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4008,7 +4008,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter241" in="00:04:49.880" out="00:05:04.520">
@@ -4021,7 +4021,7 @@
   <producer id="producer96" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4031,7 +4031,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter242" in="00:05:04.560" out="00:05:07.880">
@@ -4058,7 +4058,7 @@
   <producer id="producer97" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4068,14 +4068,14 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer98" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4085,7 +4085,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter244" in="00:05:08.440" out="00:05:11.880">
@@ -4112,7 +4112,7 @@
   <producer id="producer99" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4122,14 +4122,14 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer100" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4139,7 +4139,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter246" in="00:05:12.720" out="00:05:15.680">
@@ -4166,7 +4166,7 @@
   <producer id="producer101" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4176,14 +4176,14 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer102" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4193,7 +4193,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter248" in="00:05:17.080" out="00:05:20.240">
@@ -4220,7 +4220,7 @@
   <producer id="producer103" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4230,7 +4230,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter250" in="00:05:20.280" out="00:05:31.440">
@@ -4243,7 +4243,7 @@
   <producer id="producer104" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4253,7 +4253,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter251" in="00:05:31.480" out="00:06:08.840">
@@ -4287,7 +4287,7 @@
   <producer id="producer105" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4297,7 +4297,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter255" in="00:06:08.880" out="00:06:23.560">
@@ -4310,7 +4310,7 @@
   <producer id="producer106" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4320,7 +4320,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter256" in="00:06:23.600" out="00:07:10.960">
@@ -4333,7 +4333,7 @@
   <producer id="producer107" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4343,7 +4343,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter257" in="00:07:11.000" out="00:07:17.960">
@@ -4364,7 +4364,7 @@
   <producer id="producer108" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4374,7 +4374,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter258" in="00:07:18.000" out="00:07:42.600">
@@ -4401,7 +4401,7 @@
   <producer id="producer109" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4411,7 +4411,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter260" in="00:07:42.640" out="00:08:22.880">
@@ -4438,7 +4438,7 @@
   <producer id="producer110" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4448,7 +4448,7 @@
     <property name="creation_time">2021-03-05T02:33:35</property>
     <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Rammstein - Deutschland (Official Video) (800p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter262" in="00:08:22.920" out="00:09:22.920">
@@ -4519,7 +4519,7 @@
   <producer id="producer111" in="00:00:00.000" out="00:04:58.680">
     <property name="length">00:04:58.720</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/K.I.Z. - Hurra die Welt geht unter ft. Henning May (Official Video) (1080p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/kiz_hurra_die_welt_geht_unter_ft_henning_may_official_video_1080p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4529,7 +4529,7 @@
     <property name="creation_time">2021-03-05T06:19:31</property>
     <property name="shotcut:hash">f48e671c0d1482b9371125a03d7b0bb4</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">K.I.Z. - Hurra die Welt geht unter ft. Henning May (Official Video) (1080p_25fps_AV1-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">kiz_hurra_die_welt_geht_unter_ft_henning_may_official_video_1080p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter267" out="00:00:41.280">
@@ -4615,7 +4615,7 @@
   <producer id="producer112" in="00:00:00.000" out="00:04:38.680">
     <property name="length">00:04:38.720</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/BE DEUTSCH! [Achtung! Germans on the rise!] _ NEO MAGAZIN ROYALE mit Jan Böhmermann - ZDFneo (1080p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/be_deutsch_achtung_germans_on_the_rise_neo_magazin_royale_mit_jan_boehmermann_-_zdfneo_1080p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4624,7 +4624,7 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">adcf04aab02019acb657df638258ef8f</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">BE DEUTSCH! [Achtung! Germans on the rise!] _ NEO MAGAZIN ROYALE mit Jan Böhmermann - ZDFneo (1080p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">be_deutsch_achtung_germans_on_the_rise_neo_magazin_royale_mit_jan_boehmermann_-_zdfneo_1080p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter271" out="00:03:21.120">
@@ -4659,7 +4659,7 @@
   <producer id="producer113" in="00:00:00.000" out="00:04:38.680">
     <property name="length">00:04:38.720</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/BE DEUTSCH! [Achtung! Germans on the rise!] _ NEO MAGAZIN ROYALE mit Jan Böhmermann - ZDFneo (1080p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/be_deutsch_achtung_germans_on_the_rise_neo_magazin_royale_mit_jan_boehmermann_-_zdfneo_1080p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4668,7 +4668,7 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">adcf04aab02019acb657df638258ef8f</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">BE DEUTSCH! [Achtung! Germans on the rise!] _ NEO MAGAZIN ROYALE mit Jan Böhmermann - ZDFneo (1080p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">be_deutsch_achtung_germans_on_the_rise_neo_magazin_royale_mit_jan_boehmermann_-_zdfneo_1080p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter274" in="00:03:21.280" out="00:04:38.600">
@@ -4697,7 +4697,7 @@
   <producer id="producer114" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4707,7 +4707,7 @@
     <property name="creation_time">2021-03-05T04:36:55</property>
     <property name="shotcut:hash">85fc7fc0c0ecb06af7d014115e97081a</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter276" in="00:00:06.920" out="00:01:01.480">
@@ -4736,7 +4736,7 @@
   <producer id="producer75" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4746,14 +4746,14 @@
     <property name="creation_time">2021-03-05T04:36:55</property>
     <property name="shotcut:hash">85fc7fc0c0ecb06af7d014115e97081a</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer115" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4763,7 +4763,7 @@
     <property name="creation_time">2021-03-05T04:36:55</property>
     <property name="shotcut:hash">85fc7fc0c0ecb06af7d014115e97081a</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter278" in="00:01:09.240" out="00:01:44.320">
@@ -4784,7 +4784,7 @@
   <producer id="producer116" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4794,14 +4794,14 @@
     <property name="creation_time">2021-03-05T04:36:55</property>
     <property name="shotcut:hash">85fc7fc0c0ecb06af7d014115e97081a</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer117" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4811,7 +4811,7 @@
     <property name="creation_time">2021-03-05T04:36:55</property>
     <property name="shotcut:hash">85fc7fc0c0ecb06af7d014115e97081a</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter279" in="00:01:50.040" out="00:01:55.040">
@@ -4832,7 +4832,7 @@
   <producer id="producer118" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4842,14 +4842,14 @@
     <property name="creation_time">2021-03-05T04:36:55</property>
     <property name="shotcut:hash">85fc7fc0c0ecb06af7d014115e97081a</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
   <producer id="producer119" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4859,7 +4859,7 @@
     <property name="creation_time">2021-03-05T04:36:55</property>
     <property name="shotcut:hash">85fc7fc0c0ecb06af7d014115e97081a</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Walter Moers, Thomas Pigor - Ich hock in meinem Bonker (Video) (480p_25fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter280" in="00:02:12.960" out="00:02:40.480">
@@ -4920,7 +4920,7 @@
   <producer id="producer121" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4929,7 +4929,7 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">0036066d7a513a89136e115830fd1bbb</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
@@ -4965,7 +4965,7 @@
   <producer id="producer122" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -4974,7 +4974,7 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">0036066d7a513a89136e115830fd1bbb</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
@@ -5034,7 +5034,7 @@
   <producer id="producer124" in="00:00:00.000" out="00:00:22.240">
     <property name="length">00:00:22.280</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Nuclear Explosion Video &amp; Sound (720p_30fps_H264-192kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/nuclear_explosion_video_and_sound_720p_30fps_h264_192kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5044,7 +5044,7 @@
     <property name="creation_time">2019-12-29T06:01:46</property>
     <property name="shotcut:hash">16cefda8cd5d36e4bfd3090af8a6d72b</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Nuclear Explosion Video &amp; Sound (720p_30fps_H264-192kbit_AAC).mp4</property>
+    <property name="shotcut:caption">nuclear_explosion_video_and_sound_720p_30fps_h264_192kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
@@ -5064,7 +5064,7 @@
   <producer id="producer125" in="00:00:00.000" out="00:05:48.040">
     <property name="length">00:05:48.080</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/BigGgns - The Final Frontier (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/bigggns_the_final_frontier_1080p_30fps_h264-128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5074,7 +5074,7 @@
     <property name="creation_time">2021-03-05T15:51:28</property>
     <property name="shotcut:hash">f2859b818454205b449eb42135a9da67</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">BigGgns - The Final Frontier (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">bigggns_the_final_frontier_1080p_30fps_h264-128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter287" in="00:00:22.800" out="00:00:26.160">
@@ -5095,19 +5095,19 @@
   <producer id="producer126" in="00:00:00.000" out="00:03:36.360">
     <property name="length">00:03:36.400</property>
     <property name="eof">pause</property>
-    <property name="resource">1.59:sources/videos/mp4/BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">1.59:sources/videos/mp4/bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4</property>
     <property name="aspect_ratio">1</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">1</property>
     <property name="warp_speed">1.59</property>
-    <property name="warp_resource">sources/videos/mp4/BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="warp_resource">sources/videos/mp4/bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4</property>
     <property name="mlt_service">timewarp</property>
     <property name="shotcut:producer">avformat</property>
     <property name="video_delay">0</property>
     <property name="shotcut:hash">bbf3d1d5b319c35c50173dbac19e9614</property>
-    <property name="shotcut:caption">BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4 (1.59x)</property>
+    <property name="shotcut:caption">bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4 (1.59x)</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter288" in="00:01:05.240" out="00:01:08.080">
@@ -5148,7 +5148,7 @@
   <producer id="producer127" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5157,7 +5157,7 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">0036066d7a513a89136e115830fd1bbb</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter291" in="00:00:25.240" out="00:00:28.120">
@@ -5192,7 +5192,7 @@
   <producer id="producer128" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5201,7 +5201,7 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">0036066d7a513a89136e115830fd1bbb</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter293" in="00:00:29.120" out="00:00:32.800">
@@ -5236,7 +5236,7 @@
   <producer id="producer129" in="00:00:00.000" out="00:05:48.040">
     <property name="length">00:05:48.080</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/BigGgns - The Final Frontier (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/bigggns_the_final_frontier_1080p_30fps_h264-128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5246,7 +5246,7 @@
     <property name="creation_time">2021-03-05T15:51:28</property>
     <property name="shotcut:hash">f2859b818454205b449eb42135a9da67</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">BigGgns - The Final Frontier (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">bigggns_the_final_frontier_1080p_30fps_h264-128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter295" in="00:00:22.800" out="00:00:26.160">
@@ -5267,19 +5267,19 @@
   <producer id="producer130" in="00:00:00.000" out="00:04:05.720">
     <property name="length">00:04:05.760</property>
     <property name="eof">pause</property>
-    <property name="resource">1.4:sources/videos/mp4/BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">1.4:sources/videos/mp4/bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4</property>
     <property name="aspect_ratio">1</property>
     <property name="seekable">1</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">1</property>
     <property name="warp_speed">1.4</property>
-    <property name="warp_resource">sources/videos/mp4/BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="warp_resource">sources/videos/mp4/bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4</property>
     <property name="mlt_service">timewarp</property>
     <property name="shotcut:producer">avformat</property>
     <property name="video_delay">0</property>
     <property name="shotcut:hash">bbf3d1d5b319c35c50173dbac19e9614</property>
-    <property name="shotcut:caption">BigGgns - Disordered Mind (1080p_30fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter296" in="00:01:14.120" out="00:01:17.600">
@@ -5314,7 +5314,7 @@
   <producer id="producer131" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5323,7 +5323,7 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">0036066d7a513a89136e115830fd1bbb</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter298" in="00:00:25.240" out="00:00:28.200">
@@ -5358,7 +5358,7 @@
   <producer id="producer132" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5367,7 +5367,7 @@
     <property name="aspect_ratio">1</property>
     <property name="shotcut:hash">0036066d7a513a89136e115830fd1bbb</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Shaban &amp; Käptn Peng - Sie mögen sich (720p_24fps_H264-128kbit_AAC).mp4</property>
+    <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter300" in="00:00:29.600" out="00:00:32.800">
@@ -5446,7 +5446,7 @@
   <producer id="producer134" in="00:00:00.000" out="00:03:46.640">
     <property name="length">00:03:46.680</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/Slime - Deutschland muss sterben (288p_25fps_H264-96kbit_AAC).mp4</property>
+    <property name="resource">sources/videos/mp4/slime_deutschland_muss_sterben_288p_25fps_h264_96kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
@@ -5456,7 +5456,7 @@
     <property name="creation_time">2017-11-24T15:31:34</property>
     <property name="shotcut:hash">da48fd6d4a099779cd2af1ff0c119bb5</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">Slime - Deutschland muss sterben (288p_25fps_H264-96kbit_AAC).mp4</property>
+    <property name="shotcut:caption">slime_deutschland_muss_sterben_288p_25fps_h264_96kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <filter id="filter305" in="00:00:35.080" out="00:00:44.080">
