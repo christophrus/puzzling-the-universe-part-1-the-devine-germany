@@ -4,8 +4,8 @@
   <playlist id="main_bin">
     <property name="xml_retain">1</property>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:14:25.040">
-    <property name="length">00:14:25.080</property>
+  <producer id="black" in="00:00:00.000" out="00:17:30.360">
+    <property name="length">00:17:30.400</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -14,7 +14,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:14:25.040"/>
+    <entry producer="black" in="00:00:00.000" out="00:17:30.360"/>
   </playlist>
   <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -3933,6 +3933,31 @@
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
+  <producer id="producer94" in="00:00:00.000" out="00:03:09.960">
+    <property name="length">00:03:10.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/videos/mp4/yann_tiersen_comptine_d_un_autre_ete_amelie_1080p_25fps_av1_128kbit_aac.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-03-09T15:15:04</property>
+    <property name="shotcut:hash">9badfdc6d25c860ebfc166ac69b690a5</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">yann_tiersen_comptine_d_un_autre_ete_amelie_1080p_25fps_av1_128kbit_aac.mp4</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter229" in="00:00:36.320" out="00:03:09.600">
+      <property name="start">1</property>
+      <property name="level">00:02:32.320=1;00:02:33.280=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
   <playlist id="playlist2">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V3</property>
@@ -4005,51 +4030,9 @@
     <entry producer="producer92" in="00:00:00.000" out="00:00:06.280"/>
     <blank length="00:00:01.080"/>
     <entry producer="producer93" in="00:00:00.000" out="00:00:05.360"/>
+    <blank length="00:00:32.000"/>
+    <entry producer="producer94" in="00:00:36.320" out="00:03:09.600"/>
   </playlist>
-  <producer id="producer94" in="00:00:00.000" out="00:09:22.920">
-    <property name="length">00:09:22.960</property>
-    <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2021-03-05T02:33:35</property>
-    <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <filter id="filter229" out="00:01:12.480">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-    </filter>
-    <filter id="filter230" out="00:01:12.480">
-      <property name="start">1</property>
-      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
-      <property name="mlt_service">brightness</property>
-      <property name="shotcut:filter">fadeInBrightness</property>
-      <property name="alpha">1</property>
-      <property name="shotcut:animIn">00:00:01.000</property>
-    </filter>
-    <filter id="filter231" out="00:01:12.480">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-5</property>
-      <property name="mlt_service">volume</property>
-    </filter>
-  </producer>
   <producer id="producer95" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
@@ -4066,7 +4049,7 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter232" out="00:00:28.960">
+    <filter id="filter230" out="00:01:12.480">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4079,12 +4062,19 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter233" out="00:00:28.960">
+    <filter id="filter231" out="00:01:12.480">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter232" out="00:01:12.480">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">0</property>
+      <property name="level">-5</property>
       <property name="mlt_service">volume</property>
-      <property name="disable">0</property>
     </filter>
   </producer>
   <producer id="producer96" in="00:00:00.000" out="00:09:22.920">
@@ -4103,7 +4093,7 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter234" in="00:00:29.000" out="00:00:39.880">
+    <filter id="filter233" out="00:00:28.960">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4115,12 +4105,11 @@
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter235" in="00:00:29.000" out="00:00:39.880">
+    <filter id="filter234" out="00:00:28.960">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-3</property>
+      <property name="level">0</property>
       <property name="mlt_service">volume</property>
       <property name="disable">0</property>
     </filter>
@@ -4141,7 +4130,7 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter236" in="00:00:39.920" out="00:01:12.400">
+    <filter id="filter235" in="00:00:29.000" out="00:00:39.880">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4153,12 +4142,14 @@
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter237" in="00:00:39.920" out="00:01:12.400">
+    <filter id="filter236" in="00:00:29.000" out="00:00:39.880">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">0</property>
+      <property name="level">-3</property>
       <property name="mlt_service">volume</property>
+      <property name="disable">0</property>
     </filter>
   </producer>
   <producer id="producer98" in="00:00:00.000" out="00:09:22.920">
@@ -4177,7 +4168,7 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter238" in="00:01:12.440" out="00:02:08.320">
+    <filter id="filter237" in="00:00:39.920" out="00:01:12.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4189,12 +4180,11 @@
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter239" in="00:01:12.440" out="00:02:08.320">
+    <filter id="filter238" in="00:00:39.920" out="00:01:12.400">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
+      <property name="level">0</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -4214,46 +4204,47 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter240" in="00:02:08.360" out="00:02:09.240">
+    <filter id="filter239" in="00:01:12.440" out="00:02:08.320">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter240" in="00:01:12.440" out="00:02:08.320">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-10</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer100" in="00:00:00.000" out="00:01:45.640">
-    <property name="length">00:01:45.680</property>
+  <producer id="producer100" in="00:00:00.000" out="00:09:22.920">
+    <property name="length">00:09:22.960</property>
     <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/black_swan_club_scene.mp4</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="audio_index">1</property>
     <property name="video_index">0</property>
     <property name="mute_on_pause">0</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="seekable">1</property>
     <property name="aspect_ratio">1</property>
-    <property name="creation_time">2021-03-09T04:09:34</property>
-    <property name="shotcut:hash">0535a4ee6490394e5cdc9946d9531a09</property>
+    <property name="creation_time">2021-03-05T02:33:35</property>
+    <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
     <property name="ignore_points">0</property>
-    <property name="shotcut:caption">black_swan_club_scene.mp4</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter241" out="00:00:15.200">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">15.6102 9.1245 1146.67 644.625 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-    </filter>
-    <filter id="filter242" out="00:00:15.200">
+    <filter id="filter241" in="00:02:08.360" out="00:02:09.240">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">24</property>
+      <property name="level">-10</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -4273,23 +4264,23 @@
     <property name="shotcut:caption">black_swan_club_scene.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter243" in="00:00:16.440" out="00:00:22.600">
+    <filter id="filter242" out="00:00:15.200">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
       <property name="transition.fill">1</property>
       <property name="transition.distort">0</property>
-      <property name="transition.rect">15.888 9.1245 1146.67 644.625 1</property>
+      <property name="transition.rect">15.6102 9.1245 1146.67 644.625 1</property>
       <property name="transition.valign">middle</property>
       <property name="transition.halign">center</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter244" in="00:00:16.440" out="00:00:22.600">
+    <filter id="filter243" out="00:00:15.200">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">20</property>
+      <property name="level">24</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -4309,7 +4300,7 @@
     <property name="shotcut:caption">black_swan_club_scene.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter245" in="00:00:23.720" out="00:00:30.040">
+    <filter id="filter244" in="00:00:16.440" out="00:00:22.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4322,7 +4313,7 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter246" in="00:00:23.720" out="00:00:30.040">
+    <filter id="filter245" in="00:00:16.440" out="00:00:22.600">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">20</property>
@@ -4345,7 +4336,7 @@
     <property name="shotcut:caption">black_swan_club_scene.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter247" in="00:00:31.160" out="00:00:37.400">
+    <filter id="filter246" in="00:00:23.720" out="00:00:30.040">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4357,9 +4348,8 @@
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter248" in="00:00:31.160" out="00:00:37.400">
+    <filter id="filter247" in="00:00:23.720" out="00:00:30.040">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">20</property>
@@ -4382,7 +4372,7 @@
     <property name="shotcut:caption">black_swan_club_scene.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter249" in="00:00:41.640" out="00:00:51.320">
+    <filter id="filter248" in="00:00:31.160" out="00:00:37.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4396,7 +4386,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter250" in="00:00:41.640" out="00:00:51.320">
+    <filter id="filter249" in="00:00:31.160" out="00:00:37.400">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">20</property>
@@ -4419,7 +4409,7 @@
     <property name="shotcut:caption">black_swan_club_scene.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter251" in="00:00:51.360" out="00:01:13.680">
+    <filter id="filter250" in="00:00:41.640" out="00:00:51.320">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4433,10 +4423,10 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter252" in="00:00:51.360" out="00:01:13.680">
+    <filter id="filter251" in="00:00:41.640" out="00:00:51.320">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">7</property>
+      <property name="level">20</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -4456,7 +4446,7 @@
     <property name="shotcut:caption">black_swan_club_scene.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter253" in="00:01:13.720" out="00:01:14.560">
+    <filter id="filter252" in="00:00:51.360" out="00:01:13.680">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4470,10 +4460,10 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter254" in="00:01:13.720" out="00:01:14.560">
+    <filter id="filter253" in="00:00:51.360" out="00:01:13.680">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">14</property>
+      <property name="level">7</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -4493,7 +4483,7 @@
     <property name="shotcut:caption">black_swan_club_scene.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter255" in="00:01:14.600" out="00:01:35.720">
+    <filter id="filter254" in="00:01:13.720" out="00:01:14.560">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4506,6 +4496,12 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter255" in="00:01:13.720" out="00:01:14.560">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">14</property>
+      <property name="mlt_service">volume</property>
     </filter>
   </producer>
   <producer id="producer108" in="00:00:00.000" out="00:01:45.640">
@@ -4524,7 +4520,38 @@
     <property name="shotcut:caption">black_swan_club_scene.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter256" in="00:01:35.760" out="00:01:45.640">
+    <filter id="filter256" in="00:01:14.600" out="00:01:35.720">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">15.888 9.1245 1146.67 644.625 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer109" in="00:00:00.000" out="00:01:45.640">
+    <property name="length">00:01:45.680</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/videos/mp4/black_swan_club_scene.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-03-09T04:09:34</property>
+    <property name="shotcut:hash">0535a4ee6490394e5cdc9946d9531a09</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">black_swan_club_scene.mp4</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter257" in="00:01:35.760" out="00:01:45.640">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4537,29 +4564,6 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
-    </filter>
-  </producer>
-  <producer id="producer109" in="00:00:00.000" out="00:09:22.920">
-    <property name="length">00:09:22.960</property>
-    <property name="eof">pause</property>
-    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
-    <property name="audio_index">1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2021-03-05T02:33:35</property>
-    <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
-    <property name="ignore_points">0</property>
-    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <filter id="filter257" in="00:02:08.640" out="00:02:40.960">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-6</property>
-      <property name="mlt_service">volume</property>
     </filter>
   </producer>
   <producer id="producer110" in="00:00:00.000" out="00:09:22.920">
@@ -4578,24 +4582,10 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter258" in="00:02:41.000" out="00:02:44.360">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
-    </filter>
-    <filter id="filter259" in="00:02:41.000" out="00:02:44.360">
+    <filter id="filter258" in="00:02:08.640" out="00:02:40.960">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
+      <property name="level">-6</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -4615,6 +4605,26 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <filter id="filter259" in="00:02:41.000" out="00:02:44.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter260" in="00:02:41.000" out="00:02:44.360">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </producer>
   <producer id="producer112" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -4632,26 +4642,6 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter260" in="00:02:45.440" out="00:02:48.280">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
-    </filter>
-    <filter id="filter261" in="00:02:45.440" out="00:02:48.280">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
-      <property name="mlt_service">volume</property>
-    </filter>
   </producer>
   <producer id="producer113" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -4669,6 +4659,26 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <filter id="filter261" in="00:02:45.440" out="00:02:48.280">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter262" in="00:02:45.440" out="00:02:48.280">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </producer>
   <producer id="producer114" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -4686,26 +4696,6 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter262" in="00:02:49.480" out="00:02:52.360">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
-    </filter>
-    <filter id="filter263" in="00:02:49.480" out="00:02:52.360">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
-      <property name="mlt_service">volume</property>
-    </filter>
   </producer>
   <producer id="producer115" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -4723,6 +4713,26 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <filter id="filter263" in="00:02:49.480" out="00:02:52.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter264" in="00:02:49.480" out="00:02:52.360">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </producer>
   <producer id="producer116" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -4740,26 +4750,6 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter264" in="00:02:53.360" out="00:02:55.600">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
-    </filter>
-    <filter id="filter265" in="00:02:53.360" out="00:02:55.600">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
-      <property name="mlt_service">volume</property>
-    </filter>
   </producer>
   <producer id="producer117" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -4777,7 +4767,7 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter266" in="00:02:55.200" out="00:02:56.840">
+    <filter id="filter265" in="00:02:53.360" out="00:02:55.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -4791,7 +4781,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter267" in="00:02:55.200" out="00:02:56.840">
+    <filter id="filter266" in="00:02:53.360" out="00:02:55.600">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-10</property>
@@ -4814,32 +4804,25 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter268" in="00:02:56.880" out="00:03:13.240">
-      <property name="amount">5</property>
-      <property name="mlt_service">choppy</property>
+    <filter id="filter267" in="00:02:55.200" out="00:02:56.840">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter269" in="00:02:56.880" out="00:03:13.240">
-      <property name="version">0.3</property>
-      <property name="mlt_service">frei0r.saturat0r</property>
-      <property name="threads">0</property>
-      <property name="0">0</property>
-    </filter>
-    <filter id="filter270" in="00:02:56.880" out="00:03:13.240">
+    <filter id="filter268" in="00:02:55.200" out="00:02:56.840">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-12</property>
+      <property name="level">-10</property>
       <property name="mlt_service">volume</property>
-    </filter>
-    <filter id="filter271" in="00:02:56.880" out="00:03:13.240">
-      <property name="mlt_service">ladspa.1216</property>
-      <property name="0">30</property>
-      <property name="1">7.5</property>
-      <property name="2">0.5</property>
-      <property name="3">0.75</property>
-      <property name="4">0</property>
-      <property name="5">-10</property>
-      <property name="6">-17.5</property>
-      <property name="instances">2</property>
     </filter>
   </producer>
   <producer id="producer119" in="00:00:00.000" out="00:09:22.920">
@@ -4858,11 +4841,32 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter272" in="00:03:13.280" out="00:03:55.960">
+    <filter id="filter269" in="00:02:56.880" out="00:03:13.240">
+      <property name="amount">5</property>
+      <property name="mlt_service">choppy</property>
+    </filter>
+    <filter id="filter270" in="00:02:56.880" out="00:03:13.240">
+      <property name="version">0.3</property>
+      <property name="mlt_service">frei0r.saturat0r</property>
+      <property name="threads">0</property>
+      <property name="0">0</property>
+    </filter>
+    <filter id="filter271" in="00:02:56.880" out="00:03:13.240">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-6</property>
+      <property name="level">-12</property>
       <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter272" in="00:02:56.880" out="00:03:13.240">
+      <property name="mlt_service">ladspa.1216</property>
+      <property name="0">30</property>
+      <property name="1">7.5</property>
+      <property name="2">0.5</property>
+      <property name="3">0.75</property>
+      <property name="4">0</property>
+      <property name="5">-10</property>
+      <property name="6">-17.5</property>
+      <property name="instances">2</property>
     </filter>
   </producer>
   <producer id="producer120" in="00:00:00.000" out="00:09:22.920">
@@ -4881,32 +4885,11 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter273" in="00:03:56.000" out="00:04:33.560">
-      <property name="amount">5</property>
-      <property name="mlt_service">choppy</property>
-    </filter>
-    <filter id="filter274" in="00:03:56.000" out="00:04:33.560">
-      <property name="version">0.3</property>
-      <property name="mlt_service">frei0r.saturat0r</property>
-      <property name="threads">0</property>
-      <property name="0">0</property>
-    </filter>
-    <filter id="filter275" in="00:03:56.000" out="00:04:33.560">
+    <filter id="filter273" in="00:03:13.280" out="00:03:55.960">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-12</property>
+      <property name="level">-6</property>
       <property name="mlt_service">volume</property>
-    </filter>
-    <filter id="filter276" in="00:03:56.000" out="00:04:33.560">
-      <property name="mlt_service">ladspa.1216</property>
-      <property name="0">30</property>
-      <property name="1">7.5</property>
-      <property name="2">0.5</property>
-      <property name="3">0.75</property>
-      <property name="4">0</property>
-      <property name="5">-10</property>
-      <property name="6">-17.5</property>
-      <property name="instances">2</property>
     </filter>
   </producer>
   <producer id="producer121" in="00:00:00.000" out="00:09:22.920">
@@ -4925,11 +4908,32 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter277" in="00:04:33.600" out="00:04:47.680">
+    <filter id="filter274" in="00:03:56.000" out="00:04:33.560">
+      <property name="amount">5</property>
+      <property name="mlt_service">choppy</property>
+    </filter>
+    <filter id="filter275" in="00:03:56.000" out="00:04:33.560">
+      <property name="version">0.3</property>
+      <property name="mlt_service">frei0r.saturat0r</property>
+      <property name="threads">0</property>
+      <property name="0">0</property>
+    </filter>
+    <filter id="filter276" in="00:03:56.000" out="00:04:33.560">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-6</property>
+      <property name="level">-12</property>
       <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter277" in="00:03:56.000" out="00:04:33.560">
+      <property name="mlt_service">ladspa.1216</property>
+      <property name="0">30</property>
+      <property name="1">7.5</property>
+      <property name="2">0.5</property>
+      <property name="3">0.75</property>
+      <property name="4">0</property>
+      <property name="5">-10</property>
+      <property name="6">-17.5</property>
+      <property name="instances">2</property>
     </filter>
   </producer>
   <producer id="producer122" in="00:00:00.000" out="00:09:22.920">
@@ -4948,32 +4952,11 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter278" in="00:04:47.720" out="00:04:49.840">
-      <property name="amount">5</property>
-      <property name="mlt_service">choppy</property>
-    </filter>
-    <filter id="filter279" in="00:04:47.720" out="00:04:49.840">
-      <property name="version">0.3</property>
-      <property name="mlt_service">frei0r.saturat0r</property>
-      <property name="threads">0</property>
-      <property name="0">0</property>
-    </filter>
-    <filter id="filter280" in="00:04:47.720" out="00:04:49.840">
+    <filter id="filter278" in="00:04:33.600" out="00:04:47.680">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-12</property>
+      <property name="level">-6</property>
       <property name="mlt_service">volume</property>
-    </filter>
-    <filter id="filter281" in="00:04:47.720" out="00:04:49.840">
-      <property name="mlt_service">ladspa.1216</property>
-      <property name="0">30</property>
-      <property name="1">7.5</property>
-      <property name="2">0.5</property>
-      <property name="3">0.75</property>
-      <property name="4">0</property>
-      <property name="5">-10</property>
-      <property name="6">-17.5</property>
-      <property name="instances">2</property>
     </filter>
   </producer>
   <producer id="producer123" in="00:00:00.000" out="00:09:22.920">
@@ -4992,11 +4975,32 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter282" in="00:04:49.880" out="00:05:04.520">
+    <filter id="filter279" in="00:04:47.720" out="00:04:49.840">
+      <property name="amount">5</property>
+      <property name="mlt_service">choppy</property>
+    </filter>
+    <filter id="filter280" in="00:04:47.720" out="00:04:49.840">
+      <property name="version">0.3</property>
+      <property name="mlt_service">frei0r.saturat0r</property>
+      <property name="threads">0</property>
+      <property name="0">0</property>
+    </filter>
+    <filter id="filter281" in="00:04:47.720" out="00:04:49.840">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-6</property>
+      <property name="level">-12</property>
       <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter282" in="00:04:47.720" out="00:04:49.840">
+      <property name="mlt_service">ladspa.1216</property>
+      <property name="0">30</property>
+      <property name="1">7.5</property>
+      <property name="2">0.5</property>
+      <property name="3">0.75</property>
+      <property name="4">0</property>
+      <property name="5">-10</property>
+      <property name="6">-17.5</property>
+      <property name="instances">2</property>
     </filter>
   </producer>
   <producer id="producer124" in="00:00:00.000" out="00:09:22.920">
@@ -5015,24 +5019,10 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter283" in="00:05:04.560" out="00:05:07.880">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
-    </filter>
-    <filter id="filter284" in="00:05:04.560" out="00:05:07.880">
+    <filter id="filter283" in="00:04:49.880" out="00:05:04.520">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
+      <property name="level">-6</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -5052,6 +5042,26 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <filter id="filter284" in="00:05:04.560" out="00:05:07.880">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter285" in="00:05:04.560" out="00:05:07.880">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </producer>
   <producer id="producer126" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -5069,26 +5079,6 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter285" in="00:05:08.440" out="00:05:11.880">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
-    </filter>
-    <filter id="filter286" in="00:05:08.440" out="00:05:11.880">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
-      <property name="mlt_service">volume</property>
-    </filter>
   </producer>
   <producer id="producer127" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -5106,6 +5096,26 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <filter id="filter286" in="00:05:08.440" out="00:05:11.880">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter287" in="00:05:08.440" out="00:05:11.880">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </producer>
   <producer id="producer128" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -5123,26 +5133,6 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter287" in="00:05:12.720" out="00:05:15.680">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
-    </filter>
-    <filter id="filter288" in="00:05:12.720" out="00:05:15.680">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
-      <property name="mlt_service">volume</property>
-    </filter>
   </producer>
   <producer id="producer129" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -5160,6 +5150,26 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <filter id="filter288" in="00:05:12.720" out="00:05:15.680">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter289" in="00:05:12.720" out="00:05:15.680">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-10</property>
+      <property name="mlt_service">volume</property>
+    </filter>
   </producer>
   <producer id="producer130" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -5177,26 +5187,6 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter289" in="00:05:17.080" out="00:05:20.240">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
-    </filter>
-    <filter id="filter290" in="00:05:17.080" out="00:05:20.240">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-10</property>
-      <property name="mlt_service">volume</property>
-    </filter>
   </producer>
   <producer id="producer131" in="00:00:00.000" out="00:09:22.920">
     <property name="length">00:09:22.960</property>
@@ -5214,10 +5204,24 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter291" in="00:05:20.280" out="00:05:31.440">
+    <filter id="filter290" in="00:05:17.080" out="00:05:20.240">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter291" in="00:05:17.080" out="00:05:20.240">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-6</property>
+      <property name="level">-10</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -5237,32 +5241,11 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter292" in="00:05:31.480" out="00:06:08.840">
-      <property name="amount">5</property>
-      <property name="mlt_service">choppy</property>
-    </filter>
-    <filter id="filter293" in="00:05:31.480" out="00:06:08.840">
-      <property name="version">0.3</property>
-      <property name="mlt_service">frei0r.saturat0r</property>
-      <property name="threads">0</property>
-      <property name="0">0</property>
-    </filter>
-    <filter id="filter294" in="00:05:31.480" out="00:06:08.840">
+    <filter id="filter292" in="00:05:20.280" out="00:05:31.440">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-12</property>
+      <property name="level">-6</property>
       <property name="mlt_service">volume</property>
-    </filter>
-    <filter id="filter295" in="00:05:31.480" out="00:06:08.840">
-      <property name="mlt_service">ladspa.1216</property>
-      <property name="0">30</property>
-      <property name="1">7.5</property>
-      <property name="2">0.5</property>
-      <property name="3">0.75</property>
-      <property name="4">0</property>
-      <property name="5">-10</property>
-      <property name="6">-17.5</property>
-      <property name="instances">2</property>
     </filter>
   </producer>
   <producer id="producer133" in="00:00:00.000" out="00:09:22.920">
@@ -5281,11 +5264,32 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter296" in="00:06:08.880" out="00:06:23.560">
+    <filter id="filter293" in="00:05:31.480" out="00:06:08.840">
+      <property name="amount">5</property>
+      <property name="mlt_service">choppy</property>
+    </filter>
+    <filter id="filter294" in="00:05:31.480" out="00:06:08.840">
+      <property name="version">0.3</property>
+      <property name="mlt_service">frei0r.saturat0r</property>
+      <property name="threads">0</property>
+      <property name="0">0</property>
+    </filter>
+    <filter id="filter295" in="00:05:31.480" out="00:06:08.840">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-3</property>
+      <property name="level">-12</property>
       <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter296" in="00:05:31.480" out="00:06:08.840">
+      <property name="mlt_service">ladspa.1216</property>
+      <property name="0">30</property>
+      <property name="1">7.5</property>
+      <property name="2">0.5</property>
+      <property name="3">0.75</property>
+      <property name="4">0</property>
+      <property name="5">-10</property>
+      <property name="6">-17.5</property>
+      <property name="instances">2</property>
     </filter>
   </producer>
   <producer id="producer134" in="00:00:00.000" out="00:09:22.920">
@@ -5304,10 +5308,10 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter297" in="00:06:23.600" out="00:07:10.960">
+    <filter id="filter297" in="00:06:08.880" out="00:06:23.560">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-2</property>
+      <property name="level">-3</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
@@ -5327,19 +5331,11 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter298" in="00:07:11.000" out="00:07:17.960">
-      <property name="background">color:#00000000</property>
-      <property name="mlt_service">affine</property>
-      <property name="shotcut:filter">affineSizePosition</property>
-      <property name="transition.fill">1</property>
-      <property name="transition.distort">0</property>
-      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
-      <property name="transition.valign">middle</property>
-      <property name="transition.halign">center</property>
-      <property name="shotcut:animIn">00:00:00.000</property>
-      <property name="shotcut:animOut">00:00:00.000</property>
-      <property name="transition.threads">0</property>
-      <property name="transition.fix_rotate_x">0</property>
+    <filter id="filter298" in="00:06:23.600" out="00:07:10.960">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-2</property>
+      <property name="mlt_service">volume</property>
     </filter>
   </producer>
   <producer id="producer136" in="00:00:00.000" out="00:09:22.920">
@@ -5358,13 +5354,7 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter299" in="00:07:18.000" out="00:07:42.600">
-      <property name="window">75</property>
-      <property name="max_gain">20dB</property>
-      <property name="level">-6</property>
-      <property name="mlt_service">volume</property>
-    </filter>
-    <filter id="filter300" in="00:07:18.000" out="00:07:42.600">
+    <filter id="filter299" in="00:07:11.000" out="00:07:17.960">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5395,13 +5385,13 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter301" in="00:07:42.640" out="00:08:22.880">
+    <filter id="filter300" in="00:07:18.000" out="00:07:42.600">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-7</property>
+      <property name="level">-6</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter302" in="00:07:42.640" out="00:08:22.880">
+    <filter id="filter301" in="00:07:18.000" out="00:07:42.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5432,13 +5422,13 @@
     <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter303" in="00:08:22.920" out="00:09:22.920">
+    <filter id="filter302" in="00:07:42.640" out="00:08:22.880">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-3</property>
+      <property name="level">-7</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter304" in="00:08:22.920" out="00:09:22.920">
+    <filter id="filter303" in="00:07:42.640" out="00:08:22.880">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5453,7 +5443,44 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer139" in="00:00:00.000" out="00:00:10.000">
+  <producer id="producer139" in="00:00:00.000" out="00:09:22.920">
+    <property name="length">00:09:22.960</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/videos/mp4/rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-03-05T02:33:35</property>
+    <property name="shotcut:hash">90fbe86b70e26c0e139c645fa6df843e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">rammstein_deutschland_official_video_800p_25fps_av1_128kbit_aac.mp4</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter304" in="00:08:22.920" out="00:09:22.920">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-3</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter305" in="00:08:22.920" out="00:09:22.920">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">6.22642 75.0943 1180.08 491.698 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer140" in="00:00:00.000" out="00:00:10.000">
     <property name="length">00:00:10.040</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/feuersturm1.mp4</property>
@@ -5469,7 +5496,7 @@
     <property name="shotcut:caption">feuersturm1.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter305" in="00:00:03.560" out="00:00:10.000">
+    <filter id="filter306" in="00:00:03.560" out="00:00:10.000">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5482,7 +5509,7 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter306" in="00:00:03.560" out="00:00:10.000">
+    <filter id="filter307" in="00:00:03.560" out="00:00:10.000">
       <property name="start">1</property>
       <property name="level">00:00:05.480=1;00:00:06.440=0</property>
       <property name="mlt_service">brightness</property>
@@ -5490,14 +5517,14 @@
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
-    <filter id="filter307" in="00:00:03.560" out="00:00:10.000">
+    <filter id="filter308" in="00:00:03.560" out="00:00:10.000">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">12</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer140" in="00:00:00.000" out="00:04:58.680">
+  <producer id="producer141" in="00:00:00.000" out="00:04:58.680">
     <property name="length">00:04:58.720</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/kiz_hurra_die_welt_geht_unter_ft_henning_may_official_video_1080p_25fps_av1_128kbit_aac.mp4</property>
@@ -5513,13 +5540,13 @@
     <property name="shotcut:caption">kiz_hurra_die_welt_geht_unter_ft_henning_may_official_video_1080p_25fps_av1_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter308" out="00:00:41.280">
+    <filter id="filter309" out="00:00:41.280">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">0</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter309" out="00:00:41.280">
+    <filter id="filter310" out="00:00:41.280">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">00:00:40.320=0;00:00:41.280=-60</property>
@@ -5527,7 +5554,7 @@
       <property name="shotcut:filter">fadeOutVolume</property>
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
-    <filter id="filter310" out="00:00:41.280">
+    <filter id="filter311" out="00:00:41.280">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5541,9 +5568,304 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter311" out="00:00:41.280">
+    <filter id="filter312" out="00:00:41.280">
       <property name="start">1</property>
       <property name="level">00:00:40.320=1;00:00:41.280=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer142" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/png/to_be_continued.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-05T18:01:34</property>
+    <property name="shotcut:caption">to_be_continued.png</property>
+    <property name="shotcut:hash">44099ca16308aef2e5cd6d8acca43270</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter313" out="00:00:04.000">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter314" out="00:00:04.000">
+      <property name="start">1</property>
+      <property name="level">00:00:03.040=1;00:00:04.000=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer143" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/life_eternal_disclaimer.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T14:58:37</property>
+    <property name="shotcut:caption">life_eternal_disclaimer.jpg</property>
+    <property name="shotcut:hash">ad1c64cb19816b71d59ab1c5dfc23573</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter315" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer144" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/life_eternal_disclaimer.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T14:58:37</property>
+    <property name="shotcut:caption">life_eternal_disclaimer.jpg</property>
+    <property name="shotcut:hash">ad1c64cb19816b71d59ab1c5dfc23573</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer145" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/life_eternal_disclaimer.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T14:58:37</property>
+    <property name="shotcut:caption">life_eternal_disclaimer.jpg</property>
+    <property name="shotcut:hash">ad1c64cb19816b71d59ab1c5dfc23573</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer146" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/life_eternal_disclaimer.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T14:58:37</property>
+    <property name="shotcut:caption">life_eternal_disclaimer.jpg</property>
+    <property name="shotcut:hash">ad1c64cb19816b71d59ab1c5dfc23573</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer147" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/life_eternal_disclaimer.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T14:58:37</property>
+    <property name="shotcut:caption">life_eternal_disclaimer.jpg</property>
+    <property name="shotcut:hash">ad1c64cb19816b71d59ab1c5dfc23573</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer148" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/life_eternal_disclaimer.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T14:58:37</property>
+    <property name="shotcut:caption">life_eternal_disclaimer.jpg</property>
+    <property name="shotcut:hash">ad1c64cb19816b71d59ab1c5dfc23573</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer149" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/life_eternal_disclaimer.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T14:58:37</property>
+    <property name="shotcut:caption">life_eternal_disclaimer.jpg</property>
+    <property name="shotcut:hash">ad1c64cb19816b71d59ab1c5dfc23573</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter316" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:03.000=1;00:00:03.960=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer150" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/jean_jacques_rousseau.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T15:29:54</property>
+    <property name="shotcut:caption">jean_jacques_rousseau.jpg</property>
+    <property name="shotcut:hash">94792279f85dddb003141c86c863e06b</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter317" out="00:00:03.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">288.243 270.568 1400.48 521.299 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter318" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter319" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:03.000=1;00:00:03.960=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer151" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/jean_jacques_rousseau_quote_01.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T15:33:00</property>
+    <property name="shotcut:caption">jean_jacques_rousseau_quote_01.jpg</property>
+    <property name="shotcut:hash">49235872df1abeebe05014ee40a38458</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter320" out="00:00:03.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">113.108 416.514 1735.09 264.874 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter321" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter322" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:03.000=1;00:00:03.960=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer152" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/jean_jacques_rousseau_quote_02.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T15:33:29</property>
+    <property name="shotcut:caption">jean_jacques_rousseau_quote_02.jpg</property>
+    <property name="shotcut:hash">a89743b2da35bf6035cfc94dbc2b56a1</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter323" out="00:00:03.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">113.108 416.514 1735.09 264.874 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter324" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter325" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">00:00:03.000=1;00:00:03.960=0</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">1</property>
@@ -5553,63 +5875,75 @@
   <playlist id="playlist3">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V4</property>
-    <entry producer="producer94" in="00:00:00.000" out="00:01:12.480"/>
-    <entry producer="producer95" in="00:00:00.000" out="00:00:28.960"/>
-    <entry producer="producer96" in="00:00:29.000" out="00:00:39.880"/>
-    <entry producer="producer97" in="00:00:39.920" out="00:01:12.400"/>
+    <entry producer="producer95" in="00:00:00.000" out="00:01:12.480"/>
+    <entry producer="producer96" in="00:00:00.000" out="00:00:28.960"/>
+    <entry producer="producer97" in="00:00:29.000" out="00:00:39.880"/>
+    <entry producer="producer98" in="00:00:39.920" out="00:01:12.400"/>
     <blank length="00:00:00.040"/>
-    <entry producer="producer98" in="00:01:12.440" out="00:02:08.320"/>
-    <entry producer="producer99" in="00:02:08.360" out="00:02:09.240"/>
+    <entry producer="producer99" in="00:01:12.440" out="00:02:08.320"/>
+    <entry producer="producer100" in="00:02:08.360" out="00:02:09.240"/>
     <blank length="00:00:11.600"/>
-    <entry producer="producer100" in="00:00:00.000" out="00:00:15.200"/>
+    <entry producer="producer101" in="00:00:00.000" out="00:00:15.200"/>
     <blank length="00:00:01.200"/>
-    <entry producer="producer101" in="00:00:16.440" out="00:00:22.600"/>
+    <entry producer="producer102" in="00:00:16.440" out="00:00:22.600"/>
     <blank length="00:00:01.080"/>
-    <entry producer="producer102" in="00:00:23.720" out="00:00:30.040"/>
+    <entry producer="producer103" in="00:00:23.720" out="00:00:30.040"/>
     <blank length="00:00:01.080"/>
-    <entry producer="producer103" in="00:00:31.160" out="00:00:37.400"/>
+    <entry producer="producer104" in="00:00:31.160" out="00:00:37.400"/>
     <blank length="00:00:04.200"/>
-    <entry producer="producer104" in="00:00:41.640" out="00:00:51.320"/>
-    <entry producer="producer105" in="00:00:51.360" out="00:01:13.680"/>
-    <entry producer="producer106" in="00:01:13.720" out="00:01:14.560"/>
-    <entry producer="producer107" in="00:01:14.600" out="00:01:35.720"/>
-    <entry producer="producer108" in="00:01:35.760" out="00:01:45.640"/>
-    <entry producer="producer109" in="00:02:08.640" out="00:02:40.960"/>
-    <entry producer="producer110" in="00:02:41.000" out="00:02:44.360"/>
-    <entry producer="producer111" in="00:02:44.400" out="00:02:45.400"/>
-    <entry producer="producer112" in="00:02:45.440" out="00:02:48.200"/>
-    <entry producer="producer113" in="00:02:48.320" out="00:02:49.520"/>
-    <entry producer="producer114" in="00:02:49.480" out="00:02:52.360"/>
-    <entry producer="producer115" in="00:02:52.400" out="00:02:53.320"/>
-    <entry producer="producer116" in="00:02:53.360" out="00:02:55.600"/>
-    <entry producer="producer117" in="00:02:55.200" out="00:02:56.840"/>
-    <entry producer="producer118" in="00:02:56.880" out="00:03:13.240"/>
-    <entry producer="producer119" in="00:03:13.280" out="00:03:55.960"/>
-    <entry producer="producer120" in="00:03:56.000" out="00:04:33.560"/>
-    <entry producer="producer121" in="00:04:33.600" out="00:04:47.680"/>
-    <entry producer="producer122" in="00:04:47.720" out="00:04:49.840"/>
-    <entry producer="producer123" in="00:04:49.880" out="00:05:04.520"/>
-    <entry producer="producer124" in="00:05:04.560" out="00:05:07.880"/>
-    <entry producer="producer125" in="00:05:07.920" out="00:05:08.400"/>
-    <entry producer="producer126" in="00:05:08.440" out="00:05:11.880"/>
-    <entry producer="producer127" in="00:05:11.920" out="00:05:12.680"/>
-    <entry producer="producer128" in="00:05:12.720" out="00:05:15.680"/>
-    <entry producer="producer129" in="00:05:15.720" out="00:05:17.040"/>
-    <entry producer="producer130" in="00:05:17.080" out="00:05:20.240"/>
-    <entry producer="producer131" in="00:05:20.280" out="00:05:31.440"/>
-    <entry producer="producer132" in="00:05:31.480" out="00:06:08.840"/>
-    <entry producer="producer133" in="00:06:08.880" out="00:06:23.560"/>
-    <entry producer="producer134" in="00:06:23.600" out="00:07:10.960"/>
-    <entry producer="producer135" in="00:07:11.000" out="00:07:17.960"/>
-    <entry producer="producer136" in="00:07:18.000" out="00:07:42.600"/>
-    <entry producer="producer137" in="00:07:42.640" out="00:08:22.880"/>
-    <entry producer="producer138" in="00:08:22.920" out="00:09:22.920"/>
+    <entry producer="producer105" in="00:00:41.640" out="00:00:51.320"/>
+    <entry producer="producer106" in="00:00:51.360" out="00:01:13.680"/>
+    <entry producer="producer107" in="00:01:13.720" out="00:01:14.560"/>
+    <entry producer="producer108" in="00:01:14.600" out="00:01:35.720"/>
+    <entry producer="producer109" in="00:01:35.760" out="00:01:45.640"/>
+    <entry producer="producer110" in="00:02:08.640" out="00:02:40.960"/>
+    <entry producer="producer111" in="00:02:41.000" out="00:02:44.360"/>
+    <entry producer="producer112" in="00:02:44.400" out="00:02:45.400"/>
+    <entry producer="producer113" in="00:02:45.440" out="00:02:48.200"/>
+    <entry producer="producer114" in="00:02:48.320" out="00:02:49.520"/>
+    <entry producer="producer115" in="00:02:49.480" out="00:02:52.360"/>
+    <entry producer="producer116" in="00:02:52.400" out="00:02:53.320"/>
+    <entry producer="producer117" in="00:02:53.360" out="00:02:55.600"/>
+    <entry producer="producer118" in="00:02:55.200" out="00:02:56.840"/>
+    <entry producer="producer119" in="00:02:56.880" out="00:03:13.240"/>
+    <entry producer="producer120" in="00:03:13.280" out="00:03:55.960"/>
+    <entry producer="producer121" in="00:03:56.000" out="00:04:33.560"/>
+    <entry producer="producer122" in="00:04:33.600" out="00:04:47.680"/>
+    <entry producer="producer123" in="00:04:47.720" out="00:04:49.840"/>
+    <entry producer="producer124" in="00:04:49.880" out="00:05:04.520"/>
+    <entry producer="producer125" in="00:05:04.560" out="00:05:07.880"/>
+    <entry producer="producer126" in="00:05:07.920" out="00:05:08.400"/>
+    <entry producer="producer127" in="00:05:08.440" out="00:05:11.880"/>
+    <entry producer="producer128" in="00:05:11.920" out="00:05:12.680"/>
+    <entry producer="producer129" in="00:05:12.720" out="00:05:15.680"/>
+    <entry producer="producer130" in="00:05:15.720" out="00:05:17.040"/>
+    <entry producer="producer131" in="00:05:17.080" out="00:05:20.240"/>
+    <entry producer="producer132" in="00:05:20.280" out="00:05:31.440"/>
+    <entry producer="producer133" in="00:05:31.480" out="00:06:08.840"/>
+    <entry producer="producer134" in="00:06:08.880" out="00:06:23.560"/>
+    <entry producer="producer135" in="00:06:23.600" out="00:07:10.960"/>
+    <entry producer="producer136" in="00:07:11.000" out="00:07:17.960"/>
+    <entry producer="producer137" in="00:07:18.000" out="00:07:42.600"/>
+    <entry producer="producer138" in="00:07:42.640" out="00:08:22.880"/>
+    <entry producer="producer139" in="00:08:22.920" out="00:09:22.920"/>
     <blank length="00:00:17.400"/>
-    <entry producer="producer139" in="00:00:03.560" out="00:00:10.000"/>
+    <entry producer="producer140" in="00:00:03.560" out="00:00:10.000"/>
     <blank length="00:00:46.000"/>
-    <entry producer="producer140" in="00:00:00.000" out="00:00:41.280"/>
+    <entry producer="producer141" in="00:00:00.000" out="00:00:41.280"/>
+    <entry producer="producer142" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer143" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer144" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer145" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer146" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer147" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer148" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer149" in="00:00:00.000" out="00:00:03.960"/>
+    <blank length="00:02:18.920"/>
+    <entry producer="producer150" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer151" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer152" in="00:00:00.000" out="00:00:03.960"/>
   </playlist>
-  <producer id="producer141" in="00:00:00.000" out="00:04:38.680">
+  <producer id="producer153" in="00:00:00.000" out="00:04:38.680">
     <property name="length">00:04:38.720</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/be_deutsch_achtung_germans_on_the_rise_neo_magazin_royale_mit_jan_boehmermann_-_zdfneo_1080p_25fps_h264_128kbit_aac.mp4</property>
@@ -5624,7 +5958,7 @@
     <property name="shotcut:caption">be_deutsch_achtung_germans_on_the_rise_neo_magazin_royale_mit_jan_boehmermann_-_zdfneo_1080p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter312" out="00:03:20.880">
+    <filter id="filter326" out="00:03:20.880">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5638,14 +5972,14 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter313" out="00:03:20.880">
+    <filter id="filter327" out="00:03:20.880">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">3</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer142" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer154" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">sources/images/jpg/nina_warn_app.jpg</property>
@@ -5660,7 +5994,7 @@
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter314" out="00:00:00.840">
+    <filter id="filter328" out="00:00:00.840">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5674,7 +6008,7 @@
       <property name="transition.threads">0</property>
     </filter>
   </producer>
-  <producer id="producer143" in="00:00:00.000" out="00:04:38.680">
+  <producer id="producer155" in="00:00:00.000" out="00:04:38.680">
     <property name="length">00:04:38.720</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/be_deutsch_achtung_germans_on_the_rise_neo_magazin_royale_mit_jan_boehmermann_-_zdfneo_1080p_25fps_h264_128kbit_aac.mp4</property>
@@ -5689,7 +6023,7 @@
     <property name="shotcut:caption">be_deutsch_achtung_germans_on_the_rise_neo_magazin_royale_mit_jan_boehmermann_-_zdfneo_1080p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter315" in="00:03:21.280" out="00:04:38.600">
+    <filter id="filter329" in="00:03:21.280" out="00:04:38.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5703,7 +6037,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter316" in="00:03:21.280" out="00:04:38.600">
+    <filter id="filter330" in="00:03:21.280" out="00:04:38.600">
       <property name="start">1</property>
       <property name="level">00:01:16.360=1;00:01:17.320=0</property>
       <property name="mlt_service">brightness</property>
@@ -5712,7 +6046,7 @@
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer144" in="00:00:00.000" out="00:02:49.200">
+  <producer id="producer156" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
@@ -5728,7 +6062,7 @@
     <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter317" in="00:00:06.920" out="00:01:01.480">
+    <filter id="filter331" in="00:00:06.920" out="00:01:01.480">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5742,7 +6076,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter318" in="00:00:06.920" out="00:01:01.480">
+    <filter id="filter332" in="00:00:06.920" out="00:01:01.480">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.960=1</property>
       <property name="mlt_service">brightness</property>
@@ -5751,7 +6085,7 @@
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer145" in="00:00:00.000" out="00:02:49.200">
+  <producer id="producer157" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
@@ -5768,7 +6102,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer146" in="00:00:00.000" out="00:02:49.200">
+  <producer id="producer158" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
@@ -5784,7 +6118,7 @@
     <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter319" in="00:01:09.240" out="00:01:44.320">
+    <filter id="filter333" in="00:01:09.240" out="00:01:44.320">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5799,7 +6133,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer147" in="00:00:00.000" out="00:02:49.200">
+  <producer id="producer159" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
@@ -5816,7 +6150,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer148" in="00:00:00.000" out="00:02:49.200">
+  <producer id="producer160" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
@@ -5832,7 +6166,7 @@
     <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter320" in="00:01:50.040" out="00:01:55.040">
+    <filter id="filter334" in="00:01:50.040" out="00:01:55.040">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5847,7 +6181,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer149" in="00:00:00.000" out="00:02:49.200">
+  <producer id="producer161" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
@@ -5864,7 +6198,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer150" in="00:00:00.000" out="00:02:49.200">
+  <producer id="producer162" in="00:00:00.000" out="00:02:49.200">
     <property name="length">00:02:49.240</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
@@ -5880,7 +6214,7 @@
     <property name="shotcut:caption">walter_moers_thomas_pigor_ich_hock_in_meinem_bonker_video_480p_25fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter321" in="00:02:12.960" out="00:02:40.480">
+    <filter id="filter335" in="00:02:12.960" out="00:02:40.480">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5894,7 +6228,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter322" in="00:02:12.960" out="00:02:40.480">
+    <filter id="filter336" in="00:02:12.960" out="00:02:40.480">
       <property name="start">1</property>
       <property name="level">00:00:26.560=1;00:00:27.520=0</property>
       <property name="mlt_service">brightness</property>
@@ -5903,7 +6237,7 @@
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer151" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer163" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">sources/images/jpg/1500x500.jpg</property>
@@ -5918,26 +6252,55 @@
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
+    <filter id="filter337" out="00:00:23.960">
+      <property name="start">1</property>
+      <property name="level">00:00:23.000=1;00:00:23.960=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+    <filter id="filter338" out="00:00:23.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter339" out="00:00:23.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">361.216 37.5676 1219.46 406.486 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
   </producer>
   <playlist id="playlist4">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V5</property>
-    <entry producer="producer141" in="00:00:00.000" out="00:03:20.880"/>
+    <entry producer="producer153" in="00:00:00.000" out="00:03:20.880"/>
     <blank length="00:01:26.240"/>
-    <entry producer="producer142" in="00:00:00.000" out="00:00:00.840"/>
+    <entry producer="producer154" in="00:00:00.000" out="00:00:00.840"/>
     <blank length="00:05:33.880"/>
-    <entry producer="producer143" in="00:03:21.280" out="00:04:38.600"/>
-    <entry producer="producer144" in="00:00:06.920" out="00:01:01.480"/>
-    <entry producer="producer145" in="00:01:01.520" out="00:01:09.200"/>
-    <entry producer="producer146" in="00:01:09.240" out="00:01:44.320"/>
-    <entry producer="producer147" in="00:01:44.360" out="00:01:48.440"/>
-    <entry producer="producer148" in="00:01:50.040" out="00:01:55.040"/>
-    <entry producer="producer149" in="00:01:55.080" out="00:02:12.920"/>
-    <entry producer="producer150" in="00:02:12.960" out="00:02:40.480"/>
-    <blank length="00:00:00.600"/>
-    <entry producer="producer151" in="00:00:00.000" out="00:00:03.960"/>
+    <entry producer="producer155" in="00:03:21.280" out="00:04:38.600"/>
+    <entry producer="producer156" in="00:00:06.920" out="00:01:01.480"/>
+    <entry producer="producer157" in="00:01:01.520" out="00:01:09.200"/>
+    <entry producer="producer158" in="00:01:09.240" out="00:01:44.320"/>
+    <entry producer="producer159" in="00:01:44.360" out="00:01:48.440"/>
+    <entry producer="producer160" in="00:01:50.040" out="00:01:55.040"/>
+    <entry producer="producer161" in="00:01:55.080" out="00:02:12.920"/>
+    <entry producer="producer162" in="00:02:12.960" out="00:02:40.480"/>
+    <blank length="00:00:21.760"/>
+    <entry producer="producer163" in="00:00:00.000" out="00:00:23.960"/>
   </playlist>
-  <producer id="producer152" in="00:00:00.000" out="00:01:45.640">
+  <producer id="producer164" in="00:00:00.000" out="00:01:45.640">
     <property name="length">00:01:45.680</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/black_swan_club_scene.mp4</property>
@@ -5954,7 +6317,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter323" in="00:00:15.240" out="00:00:16.400">
+    <filter id="filter340" in="00:00:15.240" out="00:00:16.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5968,14 +6331,14 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter324" in="00:00:15.240" out="00:00:16.400">
+    <filter id="filter341" in="00:00:15.240" out="00:00:16.400">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">20</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer153" in="00:00:00.000" out="00:01:45.640">
+  <producer id="producer165" in="00:00:00.000" out="00:01:45.640">
     <property name="length">00:01:45.680</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/black_swan_club_scene.mp4</property>
@@ -5992,7 +6355,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter325" in="00:00:22.640" out="00:00:23.680">
+    <filter id="filter342" in="00:00:22.640" out="00:00:23.680">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6006,14 +6369,14 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter326" in="00:00:22.640" out="00:00:23.680">
+    <filter id="filter343" in="00:00:22.640" out="00:00:23.680">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">20</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer154" in="00:00:00.000" out="00:01:45.640">
+  <producer id="producer166" in="00:00:00.000" out="00:01:45.640">
     <property name="length">00:01:45.680</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/black_swan_club_scene.mp4</property>
@@ -6030,7 +6393,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter327" in="00:00:30.080" out="00:00:31.120">
+    <filter id="filter344" in="00:00:30.080" out="00:00:31.120">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6044,14 +6407,14 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter328" in="00:00:30.080" out="00:00:31.120">
+    <filter id="filter345" in="00:00:30.080" out="00:00:31.120">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">20</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer155" in="00:00:00.000" out="00:01:45.640">
+  <producer id="producer167" in="00:00:00.000" out="00:01:45.640">
     <property name="length">00:01:45.680</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/black_swan_club_scene.mp4</property>
@@ -6068,7 +6431,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter329" in="00:00:37.440" out="00:00:41.600">
+    <filter id="filter346" in="00:00:37.440" out="00:00:41.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6082,14 +6445,14 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter330" in="00:00:37.440" out="00:00:41.600">
+    <filter id="filter347" in="00:00:37.440" out="00:00:41.600">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">20</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer156" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer168" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
@@ -6105,7 +6468,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter331" in="00:00:28.160" out="00:00:29.080">
+    <filter id="filter348" in="00:00:28.160" out="00:00:29.080">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6119,7 +6482,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter332" in="00:00:28.160" out="00:00:29.080">
+    <filter id="filter349" in="00:00:28.160" out="00:00:29.080">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6134,7 +6497,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer157" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer169" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
@@ -6150,7 +6513,7 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter333" in="00:00:28.240" out="00:00:29.560">
+    <filter id="filter350" in="00:00:28.240" out="00:00:29.560">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6164,7 +6527,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter334" in="00:00:28.240" out="00:00:29.560">
+    <filter id="filter351" in="00:00:28.240" out="00:00:29.560">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6179,7 +6542,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer158" in="00:00:00.000" out="00:00:10.000">
+  <producer id="producer170" in="00:00:00.000" out="00:00:10.000">
     <property name="length">00:00:10.040</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/feuersturm1.mp4</property>
@@ -6196,14 +6559,14 @@
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
-    <filter id="filter335" out="00:00:03.520">
+    <filter id="filter352" out="00:00:03.520">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">12</property>
       <property name="mlt_service">volume</property>
     </filter>
   </producer>
-  <producer id="producer159" in="00:00:00.000" out="00:00:22.240">
+  <producer id="producer171" in="00:00:00.000" out="00:00:22.240">
     <property name="length">00:00:22.280</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/nuclear_explosion_video_and_sound_720p_30fps_h264_192kbit_aac.mp4</property>
@@ -6221,27 +6584,47 @@
     <property name="xml">was here</property>
     <property name="shotcut:defaultAudioIndex">1</property>
   </producer>
+  <producer id="producer172" in="00:00:00.000" out="00:03:09.960">
+    <property name="length">00:03:10.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/videos/mp4/yann_tiersen_comptine_d_un_autre_ete_amelie_1080p_25fps_av1_128kbit_aac.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-03-09T15:15:04</property>
+    <property name="shotcut:hash">9badfdc6d25c860ebfc166ac69b690a5</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">yann_tiersen_comptine_d_un_autre_ete_amelie_1080p_25fps_av1_128kbit_aac.mp4</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+  </producer>
   <playlist id="playlist5">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">A1</property>
     <blank length="00:03:48.680"/>
-    <entry producer="producer152" in="00:00:15.240" out="00:00:16.400"/>
+    <entry producer="producer164" in="00:00:15.240" out="00:00:16.400"/>
     <blank length="00:00:06.200"/>
-    <entry producer="producer153" in="00:00:22.640" out="00:00:23.680"/>
+    <entry producer="producer165" in="00:00:22.640" out="00:00:23.680"/>
     <blank length="00:00:06.360"/>
-    <entry producer="producer154" in="00:00:30.080" out="00:00:31.120"/>
+    <entry producer="producer166" in="00:00:30.080" out="00:00:31.120"/>
     <blank length="00:00:06.280"/>
-    <entry producer="producer155" in="00:00:37.440" out="00:00:41.600"/>
+    <entry producer="producer167" in="00:00:37.440" out="00:00:41.600"/>
     <blank length="00:01:47.800"/>
-    <entry producer="producer156" in="00:00:28.160" out="00:00:29.080"/>
+    <entry producer="producer168" in="00:00:28.160" out="00:00:29.080"/>
     <blank length="00:02:22.800"/>
-    <entry producer="producer157" in="00:00:28.240" out="00:00:29.560"/>
+    <entry producer="producer169" in="00:00:28.240" out="00:00:29.560"/>
     <blank length="00:04:19.720"/>
-    <entry producer="producer158" in="00:00:00.000" out="00:00:03.520"/>
+    <entry producer="producer170" in="00:00:00.000" out="00:00:03.520"/>
     <blank length="00:00:58.200"/>
-    <entry producer="producer159" in="00:00:00.000" out="00:00:11.960"/>
+    <entry producer="producer171" in="00:00:00.000" out="00:00:11.960"/>
+    <blank length="00:00:23.600"/>
+    <entry producer="producer172" in="00:00:04.320" out="00:00:36.280"/>
   </playlist>
-  <producer id="producer160" in="00:00:00.000" out="00:05:48.040">
+  <producer id="producer173" in="00:00:00.000" out="00:05:48.040">
     <property name="length">00:05:48.080</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/bigggns_the_final_frontier_1080p_30fps_h264-128kbit_aac.mp4</property>
@@ -6257,7 +6640,7 @@
     <property name="shotcut:caption">bigggns_the_final_frontier_1080p_30fps_h264-128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter336" in="00:00:22.800" out="00:00:26.160">
+    <filter id="filter353" in="00:00:22.800" out="00:00:26.160">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6272,7 +6655,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer161" in="00:00:00.000" out="00:03:36.360">
+  <producer id="producer174" in="00:00:00.000" out="00:03:36.360">
     <property name="length">00:03:36.400</property>
     <property name="eof">pause</property>
     <property name="resource">1.59:sources/videos/mp4/bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4</property>
@@ -6290,7 +6673,7 @@
     <property name="shotcut:caption">bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4 (1.59x)</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter337" in="00:01:05.240" out="00:01:08.080">
+    <filter id="filter354" in="00:01:05.240" out="00:01:08.080">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6304,13 +6687,13 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter338" in="00:01:05.240" out="00:01:08.080">
+    <filter id="filter355" in="00:01:05.240" out="00:01:08.080">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
       <property name="level">-15</property>
       <property name="mlt_service">volume</property>
     </filter>
-    <filter id="filter339" in="00:01:05.240" out="00:01:08.080">
+    <filter id="filter356" in="00:01:05.240" out="00:01:08.080">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6325,7 +6708,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer162" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer175" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
@@ -6340,7 +6723,7 @@
     <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter340" in="00:00:25.240" out="00:00:28.120">
+    <filter id="filter357" in="00:00:25.240" out="00:00:28.120">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6354,7 +6737,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter341" in="00:00:25.240" out="00:00:28.120">
+    <filter id="filter358" in="00:00:25.240" out="00:00:28.120">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6369,7 +6752,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer163" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer176" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
@@ -6384,7 +6767,7 @@
     <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter342" in="00:00:29.120" out="00:00:32.800">
+    <filter id="filter359" in="00:00:29.120" out="00:00:32.800">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6398,7 +6781,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter343" in="00:00:29.120" out="00:00:32.800">
+    <filter id="filter360" in="00:00:29.120" out="00:00:32.800">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6413,7 +6796,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer164" in="00:00:00.000" out="00:05:48.040">
+  <producer id="producer177" in="00:00:00.000" out="00:05:48.040">
     <property name="length">00:05:48.080</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/bigggns_the_final_frontier_1080p_30fps_h264-128kbit_aac.mp4</property>
@@ -6429,7 +6812,7 @@
     <property name="shotcut:caption">bigggns_the_final_frontier_1080p_30fps_h264-128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter344" in="00:00:22.800" out="00:00:26.160">
+    <filter id="filter361" in="00:00:22.800" out="00:00:26.160">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6444,7 +6827,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer165" in="00:00:00.000" out="00:04:05.720">
+  <producer id="producer178" in="00:00:00.000" out="00:04:05.720">
     <property name="length">00:04:05.760</property>
     <property name="eof">pause</property>
     <property name="resource">1.4:sources/videos/mp4/bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4</property>
@@ -6462,7 +6845,7 @@
     <property name="shotcut:caption">bigggns_disordered_mind_1080p_30fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter345" in="00:01:14.120" out="00:01:17.600">
+    <filter id="filter362" in="00:01:14.120" out="00:01:17.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6476,7 +6859,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter346" in="00:01:14.120" out="00:01:17.600">
+    <filter id="filter363" in="00:01:14.120" out="00:01:17.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6491,7 +6874,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer166" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer179" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
@@ -6506,7 +6889,7 @@
     <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter347" in="00:00:25.240" out="00:00:28.200">
+    <filter id="filter364" in="00:00:25.240" out="00:00:28.200">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6520,7 +6903,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter348" in="00:00:25.240" out="00:00:28.200">
+    <filter id="filter365" in="00:00:25.240" out="00:00:28.200">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6535,7 +6918,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer167" in="00:00:00.000" out="00:06:55.720">
+  <producer id="producer180" in="00:00:00.000" out="00:06:55.720">
     <property name="length">00:06:55.760</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
@@ -6550,7 +6933,7 @@
     <property name="shotcut:caption">shaban_and_kaeptn_peng_sie_moegen_sich_720p_24fps_h264_128kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter349" in="00:00:29.600" out="00:00:32.800">
+    <filter id="filter366" in="00:00:29.600" out="00:00:32.800">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6564,7 +6947,7 @@
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter350" in="00:00:29.600" out="00:00:32.800">
+    <filter id="filter367" in="00:00:29.600" out="00:00:32.800">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6579,7 +6962,7 @@
       <property name="transition.fix_rotate_x">0</property>
     </filter>
   </producer>
-  <producer id="producer168" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer181" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">sources/images/jpg/rudolf_heß_maertyrer_fuer_den_frieden.jpg</property>
@@ -6593,7 +6976,7 @@
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter351" out="00:00:04.400">
+    <filter id="filter368" out="00:00:04.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6606,7 +6989,7 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter352" out="00:00:04.400">
+    <filter id="filter369" out="00:00:04.400">
       <property name="start">1</property>
       <property name="level">00:00:03.440=1;00:00:04.400=0</property>
       <property name="mlt_service">brightness</property>
@@ -6614,7 +6997,7 @@
       <property name="alpha">1</property>
       <property name="shotcut:animOut">00:00:01.000</property>
     </filter>
-    <filter id="filter353" out="00:00:04.400">
+    <filter id="filter370" out="00:00:04.400">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.960=1</property>
       <property name="mlt_service">brightness</property>
@@ -6623,7 +7006,7 @@
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
   </producer>
-  <producer id="producer169" in="00:00:00.000" out="00:03:46.640">
+  <producer id="producer182" in="00:00:00.000" out="00:03:46.640">
     <property name="length">00:03:46.680</property>
     <property name="eof">pause</property>
     <property name="resource">sources/videos/mp4/slime_deutschland_muss_sterben_288p_25fps_h264_96kbit_aac.mp4</property>
@@ -6639,7 +7022,7 @@
     <property name="shotcut:caption">slime_deutschland_muss_sterben_288p_25fps_h264_96kbit_aac.mp4</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter354" in="00:00:35.080" out="00:00:44.080">
+    <filter id="filter371" in="00:00:35.080" out="00:00:44.080">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6652,7 +7035,7 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter355" in="00:00:35.080" out="00:00:44.080">
+    <filter id="filter372" in="00:00:35.080" out="00:00:44.080">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.960=1</property>
       <property name="mlt_service">brightness</property>
@@ -6660,9 +7043,54 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter356" in="00:00:35.080" out="00:00:44.080">
+    <filter id="filter373" in="00:00:35.080" out="00:00:44.080">
       <property name="start">1</property>
       <property name="level">00:00:08.040=1;00:00:09.000=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer183" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/sirius.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T15:03:52</property>
+    <property name="shotcut:caption">sirius.jpg</property>
+    <property name="shotcut:hash">e5da0685bb02aa1ce75e31284dceab0e</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter374" out="00:00:19.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">827.541 609.324 306.352 386.757 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter375" out="00:00:19.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter376" out="00:00:19.960">
+      <property name="start">1</property>
+      <property name="level">00:00:19.000=1;00:00:19.960=0</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">1</property>
@@ -6673,27 +7101,29 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V6</property>
     <blank length="00:05:51.480"/>
-    <entry producer="producer160" in="00:00:22.800" out="00:00:26.160"/>
+    <entry producer="producer173" in="00:00:22.800" out="00:00:26.160"/>
     <blank length="00:00:01.040"/>
-    <entry producer="producer161" in="00:01:05.240" out="00:01:08.080"/>
+    <entry producer="producer174" in="00:01:05.240" out="00:01:08.080"/>
     <blank length="00:00:01.160"/>
-    <entry producer="producer162" in="00:00:25.240" out="00:00:28.120"/>
+    <entry producer="producer175" in="00:00:25.240" out="00:00:28.120"/>
     <blank length="00:00:00.960"/>
-    <entry producer="producer163" in="00:00:29.120" out="00:00:32.800"/>
+    <entry producer="producer176" in="00:00:29.120" out="00:00:32.800"/>
     <blank length="00:02:07.920"/>
-    <entry producer="producer164" in="00:00:22.800" out="00:00:26.160"/>
+    <entry producer="producer177" in="00:00:22.800" out="00:00:26.160"/>
     <blank length="00:00:00.480"/>
-    <entry producer="producer165" in="00:01:14.120" out="00:01:17.600"/>
+    <entry producer="producer178" in="00:01:14.120" out="00:01:17.600"/>
     <blank length="00:00:00.760"/>
-    <entry producer="producer166" in="00:00:25.240" out="00:00:28.200"/>
+    <entry producer="producer179" in="00:00:25.240" out="00:00:28.200"/>
     <blank length="00:00:01.360"/>
-    <entry producer="producer167" in="00:00:29.600" out="00:00:32.800"/>
+    <entry producer="producer180" in="00:00:29.600" out="00:00:32.800"/>
     <blank length="00:04:22.080"/>
-    <entry producer="producer168" in="00:00:00.000" out="00:00:04.400"/>
+    <entry producer="producer181" in="00:00:00.000" out="00:00:04.400"/>
     <blank length="00:00:47.120"/>
-    <entry producer="producer169" in="00:00:35.080" out="00:00:44.080"/>
+    <entry producer="producer182" in="00:00:35.080" out="00:00:44.080"/>
+    <blank length="00:00:43.160"/>
+    <entry producer="producer183" in="00:00:00.000" out="00:00:19.960"/>
   </playlist>
-  <producer id="producer170" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer184" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">sources/images/jpg/willhelm_keitel.jpg</property>
@@ -6708,7 +7138,7 @@
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter357" out="00:00:04.400">
+    <filter id="filter377" out="00:00:04.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6721,7 +7151,7 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter358" out="00:00:04.400">
+    <filter id="filter378" out="00:00:04.400">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.960=1</property>
       <property name="mlt_service">brightness</property>
@@ -6729,9 +7159,54 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter359" out="00:00:04.400">
+    <filter id="filter379" out="00:00:04.400">
       <property name="start">1</property>
       <property name="level">00:00:03.440=1;00:00:04.400=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer185" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/rex01.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T15:06:28</property>
+    <property name="shotcut:caption">rex01.jpg</property>
+    <property name="shotcut:hash">ce21f6928f025e92924c092a01c7dfd9</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter380" out="00:00:15.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">503.784 642.162 209.856 310.135 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter381" out="00:00:15.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter382" out="00:00:15.960">
+      <property name="start">1</property>
+      <property name="level">00:00:15.000=1;00:00:15.960=0</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">1</property>
@@ -6742,9 +7217,11 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V7</property>
     <blank length="00:12:53.320"/>
-    <entry producer="producer170" in="00:00:00.000" out="00:00:04.400"/>
+    <entry producer="producer184" in="00:00:00.000" out="00:00:04.400"/>
+    <blank length="00:01:43.320"/>
+    <entry producer="producer185" in="00:00:00.000" out="00:00:15.960"/>
   </playlist>
-  <producer id="producer171" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer186" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">sources/images/jpg/major_wilhelm.jpg</property>
@@ -6759,7 +7236,7 @@
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter360" out="00:00:04.400">
+    <filter id="filter383" out="00:00:04.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6772,7 +7249,7 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter361" out="00:00:04.400">
+    <filter id="filter384" out="00:00:04.400">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.960=1</property>
       <property name="mlt_service">brightness</property>
@@ -6780,9 +7257,54 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter362" out="00:00:04.400">
+    <filter id="filter385" out="00:00:04.400">
       <property name="start">1</property>
       <property name="level">00:00:03.440=1;00:00:04.400=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </producer>
+  <producer id="producer187" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">sources/images/jpg/rex02.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2021-03-09T15:06:56</property>
+    <property name="shotcut:caption">rex02.jpg</property>
+    <property name="shotcut:hash">d6b0d3c52383061a7852c296683e56e1</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter386" out="00:00:11.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">1239.62 638.514 195.82 313.784 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter387" out="00:00:11.960">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter388" out="00:00:11.960">
+      <property name="start">1</property>
+      <property name="level">00:00:11.000=1;00:00:11.960=0</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
       <property name="alpha">1</property>
@@ -6793,9 +7315,11 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V8</property>
     <blank length="00:12:53.320"/>
-    <entry producer="producer171" in="00:00:00.000" out="00:00:04.400"/>
+    <entry producer="producer186" in="00:00:00.000" out="00:00:04.400"/>
+    <blank length="00:01:47.320"/>
+    <entry producer="producer187" in="00:00:00.000" out="00:00:11.960"/>
   </playlist>
-  <producer id="producer172" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer188" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">sources/images/jpg/hans_juergen_strump.jpg</property>
@@ -6810,7 +7334,7 @@
     <property name="ignore_points">0</property>
     <property name="global_feed">1</property>
     <property name="xml">was here</property>
-    <filter id="filter363" out="00:00:04.400">
+    <filter id="filter389" out="00:00:04.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6823,7 +7347,7 @@
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter364" out="00:00:04.400">
+    <filter id="filter390" out="00:00:04.400">
       <property name="start">1</property>
       <property name="level">00:00:00.000=0;00:00:00.960=1</property>
       <property name="mlt_service">brightness</property>
@@ -6831,7 +7355,7 @@
       <property name="alpha">1</property>
       <property name="shotcut:animIn">00:00:01.000</property>
     </filter>
-    <filter id="filter365" out="00:00:04.400">
+    <filter id="filter391" out="00:00:04.400">
       <property name="start">1</property>
       <property name="level">00:00:03.440=1;00:00:04.400=0</property>
       <property name="mlt_service">brightness</property>
@@ -6844,9 +7368,9 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V9</property>
     <blank length="00:12:53.320"/>
-    <entry producer="producer172" in="00:00:00.000" out="00:00:04.400"/>
+    <entry producer="producer188" in="00:00:00.000" out="00:00:04.400"/>
   </playlist>
-  <tractor id="tractor2" title="Shotcut version 21.02.27" global_feed="1" in="00:00:00.000" out="00:14:25.040">
+  <tractor id="tractor2" title="Shotcut version 21.02.27" global_feed="1" in="00:00:00.000" out="00:17:30.360">
     <property name="shotcut">1</property>
     <property name="shotcut:scaleFactor">5.85831</property>
     <property name="shotcut:projectAudioChannels">2</property>
