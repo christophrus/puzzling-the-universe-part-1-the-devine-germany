@@ -31,7 +31,9 @@ Git is software for tracking changes in any set of files, usually used for coord
 ![Image of the git commandline help](https://i.imgur.com/28DqFKS.jpg)
 
 [Download git for Windows](https://git-scm.com/download/win)
+
 [Download git for Debian](https://packages.debian.org/de/git)
+
 [Download git for Ubuntu](https://packages.ubuntu.com/search?keywords=git)
 
 [Crash course of git for beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
