@@ -14,7 +14,7 @@ This ARG is based on Collaborative Video Editing with the help of Shotcut and Gi
 1. We are living in a computer simulation
 2. Everything is connected
 3. Everything is encrypted
-4. Some key things a reversed
+4. Some key things are reversed
 5. Entities from an upper reality are sending us tiny pieces of a huge puzzle through all kinds of media
 6. If we solve the puzzle, we are getting granted full control over the simulation
 
